@@ -1,0 +1,274 @@
+body {
+    padding: 50px;
+    background-color: #C5512C;
+}
+.bot-cell {
+    /*border: 1px solid black;*/
+    box-sizing: content-box;
+}
+.bot {
+    position: absolute;
+    left: -6px;
+    top: -35px;
+    width: 76px;
+    height: 83px;
+    transition: 0.4s left, 0.4s top;
+}
+.bot.left {
+    left: -26px;
+    top: -35px;
+}
+.bot.right {
+    left: 16px;
+    top: -35px;
+}
+.bot.top {
+    left: -6px;
+    top: -60px;
+}
+.bot.bottom {
+    left: -6px;
+    top: -20px;
+}
+.bot.flipped {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+.bot-body {
+    /*width: 372px;*/
+    /*height: 408px;*/
+    position: absolute;
+    width: 76px;
+    height: 83px;
+    background-position: 0 0;
+    background-size: 380px 333px;
+    background-image: url('../img/rob_rot.svg');
+    background-repeat: no-repeat;
+}
+.bot-box {
+    display: none;
+    top: 10px;
+    left: -28px;
+    position: absolute;
+    width: 134px;  /*656x428*/
+    height: 87px;
+    background-position: 0 0;
+    background-size: 670px 350px;
+    background-image: url('../img/box_rot.svg');
+    background-repeat: no-repeat;
+}
+.bot-hand {
+    position: absolute;
+    width: 76px;
+    height: 83px;
+    background-position: 0 0;
+    background-size: 380px 333px;
+    background-image: url('../img/hand_rot.svg');
+    background-repeat: no-repeat;
+}
+
+.board {
+    position: relative;
+}
+.board-field {
+    position: absolute;
+}
+.board-cell {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+}
+.cell-wall {
+    position: relative;
+    left: -32px;
+    top: -32px;
+    width: 128px;
+    height: 128px;
+    background-size: 128px 128px;
+    background-position: center;
+    background-image: url('../img/wall_sprite.svg');
+}
+.cell-box {
+    position: relative;
+    left: -32px;
+    top: -32px;
+    width: 128px;
+    height: 128px;
+    background-size: 128px 128px;
+    background-position: center;
+    background-image: url('../img/box_sprite.svg');
+}
+.cell-tile {
+    position: relative;
+    left: -32px;
+    top: -32px;
+    width: 128px;
+    height: 128px;
+    background-size: 128px 128px;
+    background-position: center;
+    background-image: url('../img/cell_sprite.svg');
+}
+.cell-exit {
+    position: relative;
+    left: -32px;
+    top: -32px;
+    width: 128px;
+    height: 128px;
+    background-size: 128px 128px;
+    background-position: center;
+    background-image: url('../img/exit_sprite.svg');
+    animation: exit-anim 2s ease-in-out infinite;
+}
+
+.cell-portal {
+    position: relative;
+    width: 28px;
+    height: 28px;
+    left: 18px;
+    top: 18px;
+    background-color: white;
+    border-radius: 14px;
+}
+.portal-light {
+    position: absolute;
+    top: -14px;
+    width: 7px;
+    height: 28px;
+    opacity: 0.7;
+    background-image: linear-gradient(-180deg, rgba(192,239,255,0.00) 0%, #FFFFFF 100%);
+    left: 10px;
+}
+.portal-light0 {
+    left: 0px;
+    width: 28px;
+    opacity: 0.6;
+}
+.portal-light1 {
+    animation: portal 6s linear infinite;
+}
+.portal-light2 {
+    animation: portal 3.7s linear infinite;
+}
+.portal-light3 {
+    animation: portal 5.4s linear infinite;
+}
+.portal-light4 {
+    animation: portal 5.0s linear infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+.bot-glow {
+    position: absolute;
+    left: 27px;
+    top: 60px;
+}
+
+.bot-glow-hoop {
+    position: absolute;
+    opacity: 1;
+    background: rgba(252,255,0,0.3);
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 0px 2px 2px rgba(255,255,255,0.30), 0px 0px 3px 3px rgba(255,247,33,0.30);
+    opacity: 0;
+    border-top-left-radius: 100px 50px;
+    border-top-right-radius: 100px 50px;
+    border-bottom-left-radius: 100px 50px;
+    border-bottom-right-radius: 100px 50px;
+}
+
+.bot-glow-hoop.hoop1 {
+    animation: hoop-move 2s 0s linear infinite;
+}
+.bot-glow-hoop.hoop2 {
+    animation: hoop-move 2s 0.666s linear infinite;
+}
+.bot-glow-hoop.hoop3 {
+    animation: hoop-move 2s 1.333s linear infinite;
+}
+
+@keyframes portal {
+    0%,100% {
+        top: -14px;
+        left: 0;
+    }
+    50% {
+        top: -14px;
+        left: 21px;
+    }
+    25%,75% {
+        top: -25px;
+    }
+}
+@keyframes levitation {
+    0%,100% {
+        top: 0;
+    }
+    50% {
+        top: 5px;
+    }
+}
+@keyframes exit-anim  {
+    0%,100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.3;
+    }
+}
+@keyframes hoop-move {
+    0% {
+        top: 0;
+        opacity: 0;
+        width: 20px;
+        height: 10px;
+        left: 0px;
+    }
+    10% {
+        top: 2px;
+        opacity: 0.7;
+        width: 20px;
+        height: 10px;
+        left: 0px;
+    }
+    70% {
+        top: 10px;
+        opacity: 0.7;
+        width: 25px;
+        height: 12px;
+        left: -2px;
+    }
+    99% {
+        top: 14px;
+        opacity: 0;
+        left: -5px;
+        width: 30px;
+        height: 15px;
+    }
+    /*заплатка для вебкита*/
+    100% {
+        top: 0;
+        opacity: 0;
+        left: -5px;
+        width: 20px;
+        height: 10px;
+    }
+}
+
+
+
+
+
+

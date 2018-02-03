@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>pic_arr_right</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pic_arr_right">
+            <rect id="Rectangle-Copy" fill="#9AF773" x="1" y="1" width="50" height="50" rx="14"></rect>
+            <g id="Group-3" transform="translate(25.500000, 26.500000) scale(-1, 1) translate(-25.500000, -26.500000) translate(13.000000, 15.000000)" fill-rule="nonzero" fill="#FFFFFF">
+                <path d="M15.9732572,9.02815307 L2.11387143,9.02815307 C0.963230366,9.02815307 0.0304514868,9.96093195 0.0304514868,11.111573 C0.0304514868,12.2622141 0.963230366,13.1949929 2.11387143,13.1949929 L16.2501112,13.1949929 L10.5017244,18.9433797 C9.68809834,19.7570058 9.68809834,21.0761543 10.5017244,21.8897804 C11.3153505,22.7034065 12.6344991,22.7034065 13.4481252,21.8897804 L24.0879056,11.25 L13.4481252,0.610219572 C12.6344991,-0.203406524 11.3153505,-0.203406524 10.5017244,0.610219572 C9.68809834,1.42384567 9.68809834,2.74299421 10.5017244,3.55662031 L15.9732572,9.02815307 L15.9732572,9.02815307 Z" id="Combined-Shape" transform="translate(12.059179, 11.250000) scale(-1, 1) translate(-12.059179, -11.250000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

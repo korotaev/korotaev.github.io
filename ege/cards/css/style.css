@@ -1,0 +1,25 @@
+
+body {
+    padding: 0;
+    padding-top: 30px;
+    margin: 0;
+    background-color: #eee;
+    /*background-color: black;*/
+    font-size: 17px;
+    /*color: white;*/
+    /*overflow-x: hidden;*/
+    font-family: Helvetica, "PT Sans";
+}
+
+img, a, p {
+    margin: 20px;
+    /*width: 679px;*/
+}
+img {
+    box-shadow: 0 2px 7px 0px rgba(0,0,0,0.3);
+}
+
+a {
+    /*color: white;*/
+    font-size: 20px;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <title>Комиксы</title>
+
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/helper.js"></script>
+    <script type="text/javascript" src="js/html2canvas.min.js"></script>
+    <script type="text/javascript" src="js/interact.min.js"></script>
+
+
+	<script type="text/javascript">
+
+        $(document).ready(function(){
+//            init();
+//            init([]);
+            init([defaultBubble]);
+		});
+
+	</script>
+
+</head>
+
+<body>
+
+    <div id="container">
+        <div class="back-layer"></div>
+    </div>
+    <div class="ui">
+
+        <form method="post" enctype="multipart/form-data">
+            <div>
+                <input type="file" class="fileUpload" name="image_uploads" accept=".jpg, .jpeg, .png">
+            </div>
+        </form>
+
+        <button id="add">Добавить баббл</button>
+        <div class="bubble-prefs">
+            <p class="h3">Текст</p>
+            <textarea rows="5" cols="20"></textarea>
+            <br>
+            <p class="h3">Тип хвоста</p>
+            <form>
+                <input type="radio" name="type" value="curve" checked/><label>гнутый</label><br>
+                <input type="radio" name="type" value="line"/><label>прямой</label><br>
+                <input type="radio" name="type" value="cloud"/><label>облачком</label><br>
+                <input type="radio" name="type" value="none"/><label>без хвоста</label><br>
+            </form>
+            <p class="h3">Ширина хвоста</p>
+            <form>
+                <input type="number" name="thin" value="25"/>
+            </form>
+            <p class="h3">Размер текста</p>
+            <form>
+                <input type="radio" name="size" value="small"/><label>малый</label><br>
+                <input type="radio" name="size" value="medium" checked/><label>средний</label><br>
+                <input type="radio" name="size" value="large"/><label>большой</label><br>
+                <input type="checkbox" name="round" checked/><label>скругление</label>
+            </form>
+            <p class="h3">Цвет фона</p>
+            <form>
+                <input type="text" name="colorback" value="FFFFFF"/><br>
+                <input type="checkbox" name="transparent"/><label>прозрачный</label>
+            </form>
+            <p class="h3">Цвет текста</p>
+            <form>
+                <input type="text" name="colortext" value="000000"/>
+            </form>
+            <p class="h3">Выравнивание</p>
+            <form>
+                <input type="radio" name="align" value="left" checked/><label>лево</label><br>
+                <input type="radio" name="align" value="center"/><label>центр</label><br>
+                <input type="radio" name="align" value="right"/><label>право</label><br>
+            </form>
+            <p class="h3">Жирность (для иврита)</p>
+            <form>
+                <input type="checkbox" name="bolded"/><label>жирный</label>
+            </form>
+            <button id="remove">Удалить баббл</button>
+
+        </div>
+        <button id="dl">Сохранить картинку</button>
+        <!--<button id="out">Console</button>-->
+
+    </div>
+
+
+</body>
+</html>

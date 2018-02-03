@@ -1,0 +1,71 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #797979;
+}
+
+
+.back {
+    width: 693px;
+    height: 714px;
+    background-image: url('../img/back.png');
+    position: relative;
+}
+
+.iron {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+}
+.pic {
+    position: absolute;
+    background-image: url('../img/obj_37x37.svg');
+    width: 37px;
+    height: 37px;
+    background-position: -259px 0;
+}
+.hole {
+    position: absolute;
+    background-image: url('../img/obj_37x37.svg');
+    width: 37px;
+    height: 37px;
+    background-position: -148px 0;
+}
+.hole.repaired {
+    background-position: -74px 0;
+}
+.sparks {
+    width: 74px;
+    height: 74px;
+    background-image: url('../img/sparks.svg');
+    background-position: 0 0;
+    left: -17px;
+    top: -17px;
+    position: absolute;
+
+}
+.sparks.show {
+    animation: spark 0.3s linear 0s 1 alternate;
+}
+
+@keyframes spark {
+    0%,19.999% {
+        background-position: -100% 0;
+    }
+    20%,39.999% {
+        background-position: -200% 0;
+    }
+    40%,59.999% {
+        background-position: -300% 0;
+    }
+    60%,79.999% {
+        background-position: -400% 0;
+    }
+    80%,99.999% {
+        background-position: -500% 0;
+    }
+    100% {
+        background-position: -600% 0;
+    }
+}

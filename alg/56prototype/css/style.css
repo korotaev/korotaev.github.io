@@ -1,0 +1,292 @@
+body {
+    background-color: #322830;
+}
+
+.board {
+    position: relative;
+    width: 1024px;
+    height: 768px;
+    left: 50%;
+    margin-left: -512px;
+    background-color: white;
+}
+
+.map-container {
+    /*border: 1px solid red;*/
+    position: relative;
+}
+.console-container {
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+    height: 300px;
+}
+/*.keyboard-container {*/
+    /*height: 100px;*/
+    /*position: relative;*/
+/*}*/
+
+.console-box {
+    height: 100px;
+    background: rgba(189,189,189,0.2);
+    border-radius: 8px;
+    position: relative;
+    top: 100px;
+}
+
+/*.button-container {*/
+    /*position: absolute;*/
+/*}*/
+/*.button-container.can-drop {*/
+/*}*/
+/*.button-container.can-drop .button {*/
+    /*!*width: 120%;*!*/
+    /*!*height: 120%;*!*/
+    /*!*left: -10%;*!*/
+    /*!*top: -10%;*!*/
+/*}*/
+
+.button {
+    width: 68px;
+    height: 68px;
+    position: absolute;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 600%;
+    /*transition: 0.3s left, 0.3s top, 0.3s width, 0.3s height;*/
+    background-image: url('../img/arrows_keys.svg');
+    transform: scale(0.1,0.1);
+    opacity: 0;
+    transition: transform 0.4s, opacity 0.4s;
+}
+.button.button-show {
+    opacity: 1;
+    transform: scale(1,1);
+}
+.button.button-remove {
+    opacity: 0.1;
+    transform: scale(2,2);
+}
+.cursor {
+    background-image: url('../img/arrows.svg');
+    background-position: 0% 80%;
+    transform: scale(1,1);
+    z-index: 40;
+    animation: cursor-animation 0.8s ease-in-out 0s infinite alternate;
+}
+@keyframes cursor-animation  {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.3;
+    }
+}
+
+.cursor-for1 {
+    background-image: url('../img/for_console.svg');
+    background-position: 0% 75%;
+    background-size: 600px 810px;
+    width: 147px;
+    height: 90px;
+}
+.cursor-for2 {
+    background-image: url('../img/for_console.svg');
+    background-position: 50% 75%;
+    background-size: 600px 810px;
+    width: 200px;
+    height: 90px;
+}
+
+.button-right { background-position: 40% 0% }
+.button-left { background-position: 40% 20% }
+.button-down { background-position: 60% 20% }
+.button-up { background-position: 60% 0% }
+.button-back { background-position: 80% 0% }
+
+.button-right-command { background-position: 0% 40% }
+.button-left-command { background-position: 0% 60% }
+.button-down-command { background-position: 20% 60% }
+.button-up-command { background-position: 20% 40% }
+.button-back-command { background-position: 80% 0% }
+.button-for1-command {
+    background-image: url('../img/for_console.svg');
+    background-position: 0% 62.5%;
+    background-size: 600px 810px;
+    width: 147px;
+    height: 90px;
+}
+.button-for2-command {
+    background-image: url('../img/for_console.svg');
+    background-position: 50% 62.5%;
+    background-size: 600px 810px;
+    width: 200px;
+    height: 90px;
+}
+
+.drag-right { background-position: 0% 0% }
+.drag-left { background-position: 0% 20% }
+.drag-down { background-position: 20% 20% }
+.drag-up { background-position: 20% 0% }
+
+
+.button-for1 {
+    background-image: url('../img/for.svg');
+    background-size: 520px 272px;
+    background-position: -130px -136px;
+    width: 98px;
+    height: 68px;
+}
+.button-for1:active {
+    background-position: -130px -204px;
+}
+
+.button-for2 {
+    background-image: url('../img/for.svg');
+    background-size: 520px 272px;
+    background-position: -260px -136px;
+    width: 107px;
+    height: 68px;
+}
+.button-for2:active {
+    background-position: -260px -204px;
+}
+
+
+.button-right:active { background-position: 40% 40% }
+.button-left:active { background-position: 40% 60% }
+.button-down:active { background-position: 60% 60% }
+.button-up:active { background-position: 60% 40% }
+.button-back:active { background-position: 100% 0% }
+
+.drag-for1 {
+    background-image: url('../img/for.svg');
+    background-size: 520px 272px;
+    background-position: -130px 0;
+    width: 98px;
+    height: 68px;
+}
+.drag-for1.drag-for1-consoled {
+    background-image: url('../img/for_console.svg');
+    background-size: 600px 810px;
+    background-position: 0% 25%;
+    width: 147px;
+    height: 90px;
+}
+
+.drag-for2 {
+    background-image: url('../img/for.svg');
+    background-size: 520px 272px;
+    background-position: -260px 0;
+    width: 107px;
+    height: 68px;
+}
+.drag-for2.drag-for2-consoled {
+    background-image: url('../img/for_console.svg');
+    background-size: 600px 810px;
+    background-position: 50% 25%;
+    width: 200px;
+    height: 90px;
+}
+
+.for-counter {
+    position: absolute;
+    left: 33px;
+    top: 30px;
+    background-image: url('../img/numbers.svg');
+    background-size: 300px 30px;
+    width: 30px;
+    height: 30px;
+}
+.for-cnt-0 { background-position: 0px 0; }
+.for-cnt-1 { background-position: -30px 0; }
+.for-cnt-2 { background-position: -60px 0; }
+.for-cnt-3 { background-position: -90px 0; }
+.for-cnt-4 { background-position: -120px 0; }
+.for-cnt-5 { background-position: -150px 0; }
+.for-cnt-6 { background-position: -180px 0; }
+.for-cnt-7 { background-position: -210px 0; }
+.for-cnt-8 { background-position: -240px 0; }
+.for-cnt-9 { background-position: -270px 0; }
+
+.for-button {
+    width: 16px;
+    height: 16px;
+    background-image: url('../img/number_buttons.svg');
+    background-position-x: 0;
+    position: absolute;
+    left: 40px;
+    top: 17px;
+}
+.for-button:hover { background-position-x: -16px; }
+.for-button:active { background-position-x: -32px; }
+.for-button.disabled { background-position-x: -48px; }
+.for-down { background-position-y: -16px; top: 56px;}
+.for-up {}
+
+.memory {
+    width: 68px;
+    height: 68px;
+    top: -34px;
+    left: -34px;
+    position: absolute;
+    background-image: url('../img/arrows.svg');
+}
+
+.memory-right { background-position: 0% 40%; }
+.memory-left { background-position: 0% 60%; }
+.memory-down { background-position: 20% 60%; }
+.memory-up { background-position: 20% 40%; }
+.memory-right.drop-target { background-position: 40% 40%; }
+.memory-left.drop-target { background-position: 40% 60%; }
+.memory-down.drop-target { background-position: 60% 60%; }
+.memory-up.drop-target { background-position: 60% 40%; }
+
+.memory-right.white { background-position: 80% 0%; }
+.memory-left.white { background-position: 80% 20%; }
+.memory-down.white { background-position: 100% 20%; }
+.memory-up.white { background-position: 100% 0%; }
+
+.memory-right-drag { background-position: 0% 0%; }
+.memory-left-drag { background-position: 0% 20%; }
+.memory-down-drag { background-position: 20% 20%; }
+.memory-up-drag { background-position: 20% 0%; }
+.memory-right-drag.drop-target { background-position: 40% 0%; }
+.memory-left-drag.drop-target { background-position: 40% 0%; }
+.memory-down-drag.drop-target { background-position: 60% 20%; }
+.memory-up-drag.drop-target { background-position: 60% 0%; }
+
+.memory-for1 {
+    background-image: url('../img/for_console.svg');
+    background-position: 0% 37.5%;
+    width: 147px;
+    height: 90px;
+}
+.memory-for1-drag {
+    background-image: url('../img/for_console.svg');
+    /*background-size: 600px 540px;*/
+    background-position: 0% 0%;
+    width: 147px;
+    height: 90px;
+}
+.memory-for1-drag.drop-target {
+    background-position: 0% 12.5%;
+}
+.memory-for2 {
+    background-image: url('../img/for_console.svg');
+    /*background-size: 600px 540px;*/
+    background-position: 50% 37.5%;
+    width: 200px;
+    height: 90px;
+}
+.memory-for2-drag {
+    background-image: url('../img/for_console.svg');
+    /*background-size: 600px 540px;*/
+    background-position: 50% 0%;
+    width: 200px;
+    height: 90px;
+}
+.memory-for2-drag.drop-target {
+    background-position: 50% 12.5%;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <title>Алгоритмика</title>
+
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+            init();
+		});
+
+	</script>
+	
+	<style>
+	</style>
+	
+</head>
+
+<body>
+
+    <div class="board">
+        <div class="cell pos00">
+            <div class="road r02"></div>
+            <div class="bottle-container">
+                <div class="bottle" id="bottle-left"></div>
+            </div>
+        </div>
+        <div class="cell pos10">
+            <div class="road r32"></div>
+        </div>
+        <div class="cell pos20">
+            <div class="road r33"></div>
+            <div class="bottle-container">
+                <div class="bottle" id="bottle-right"></div>
+            </div>
+        </div>
+
+        <div class="cell pos10" id="cell-bot">
+            <div class="bot"></div>
+        </div>
+    </div>
+
+</body>
+</html>

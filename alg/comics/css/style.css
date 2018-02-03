@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'CeraPRO-Bold';
+    /*src: url('../webfonts/2F0DA1_0_0.eot');*/
+    src:
+    /*url('../webfonts/2F0DA1_0_0.eot?#iefix') format('embedded-opentype'),*/
+    /*url('../webfonts/2F0DA1_0_0.woff2') format('woff2'),*/
+    /*url('../webfonts/2F0DA1_0_0.woff') format('woff'),*/
+    url('../fonts/CeraPRO-Bold.ttf') format('truetype');
+}
+
+body {
+    padding: 15px;
+    margin: 0;
+    background-color: white;
+    font-size: 20px;
+    overflow-x: hidden;
+    font-family: 'CeraPRO-Bold';
+}
+.back-layer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+#container{
+    width:991px;
+    height:638px;
+    position: relative;
+
+    background-color: #eee;
+    /*background-image: url('../pics/45.jpg');*/
+    background-size: cover;
+    background-position: center;
+    crossOrigin: "anonymous";
+    float: left;
+}
+.bubble {
+    text-align: left;
+    position: absolute;
+    display: inline-block;
+    /*width: 450px;*/
+    background-color: white;
+    top: 0;
+    border: 5px solid transparent;
+    z-index: 1;
+}
+.bubble p {
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
+.bubble.medium {
+    padding: 20px 30px;
+    border-radius: 28px;
+}
+.bubble.large {
+    padding: 20px 30px;
+    border-radius: 35px;
+}
+.bubble.small {
+    padding: 15px 25px;
+    border-radius: 15px;
+}
+.bubble.small.noround, .bubble.medium.noround, .bubble.large.noround {
+    border-radius: 0;
+}
+.bubble.medium p { }
+.bubble.large p { font-size: 35px; }
+.bubble.small p{ font-size: 20px; }
+
+.bubble.tune {
+    border-right-color: #F117A1;
+    border-left-color: #F117A1;
+}
+.point {
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    position: absolute;
+    transform: translate(-8px,-8px);
+}
+.point.tune {
+    background-color: #F117A1;
+}
+
+button{
+    display:block;
+    height:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+/*---------------------------------*/
+
+.ui {
+    float: left;
+    padding-left: 15px;
+    overflow-x: hidden;
+    /*border: 1px solid red;*/
+}
+.bubble-prefs {
+    background-color: #eee;
+    padding: 15px;
+}
+textarea {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+label { font-size: 13px; }
+p.h3 {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    line-height: 1.4;
+}

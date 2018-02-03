@@ -1,0 +1,135 @@
+body {
+    background-color: #322830;
+    background-image: url('../img/bg.svg');
+}
+
+.pos00 {
+    left: 200px;
+    top: 100px;
+}
+.pos10 {
+    left: 350px;
+    top: 100px;
+}
+.pos20 {
+    left: 500px;
+    top: 100px;
+}
+
+.board {
+    margin-top: 100px;
+    position: relative;
+    width: 100%;
+    height: 768px;
+    background-image: url('../img/map6_1_1.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+}
+
+.cell {
+    /*border: 1px solid white;*/
+    box-sizing: content-box;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    transition: 0.4s left, 0.4s top;
+}
+
+.road {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-image: url('../img/tiles_pegman.svg');
+    background-size: 500%;
+}
+.road.r00 {
+}
+.road.r02 {
+    background-position: 0% 66.666%;
+}
+.road.r32 {
+    background-position: 75% 66.666%;
+}
+.road.r33 {
+    background-position: 75% 100%;
+}
+
+.bot {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-image: url('../img/robmask_rot.svg');
+    background-size: cover;
+    background-position: 26.666% 0%;
+}
+.bottle-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    height: 100%;
+    /*border: 1px solid red;*/
+}
+.bottle {
+    /*border: 1px solid blue;*/
+    height: 100%;
+    width: 100%;
+    left: -50%;
+    top: -50%;
+    position: absolute;
+    background-image: url('../img/objects.svg');
+    background-size: cover;
+}
+.bottle.drinkR {
+    animation: drinkV 1s 0.3s cubic-bezier(.4,.07,.89,.53), drinkH 1s 0.3s cubic-bezier(.13,.51,.57,.94);
+}
+.bottle.drinkL {
+    animation: drinkV 1s 0.3s cubic-bezier(.4,.07,.89,.53), drinkH2 1s 0.3s cubic-bezier(.13,.51,.57,.94);
+}
+@keyframes drinkV  {
+    0% {
+        top: -50%;
+    }
+    50% {
+        top: -150%;
+    }
+    99% {
+        top: -5%;
+    }
+}
+@keyframes drinkH  {
+    0% {
+        left: -50%;
+    }
+    50% {
+        left: 50%;
+        width: 150%;
+        height: 150%;
+    }
+    99% {
+        left: -5%;
+        width: 10%;
+        height: 10%;
+    }
+}
+@keyframes drinkH2  {
+    0% {
+        left: -50%;
+    }
+    50% {
+        left: -200%;
+        width: 150%;
+        height: 150%;
+    }
+    99% {
+        left: -5%;
+        width: 10%;
+        height: 10%;
+    }
+}
+
+
+    /*animation: exit-anim 2s ease-in-out infinite;*/
+
+
+

@@ -1,0 +1,51 @@
+body {
+    background-color: darkolivegreen;
+}
+.cell {
+    width: 50px;
+    height: 50px;
+    box-sizing: content-box;
+    position: relative;
+    display: inline-block;
+}
+.cell-tile {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/tile_break.svg');
+    background-size: cover;
+}
+.cell-tile.break {
+    animation: break1 .5s cubic-bezier(0.55, 0.085, 0.68, 0.53), break2 .5s linear;
+    animation-fill-mode: forwards;
+
+}
+@keyframes break1 {
+    0% {
+        top: 0%;
+    }
+    100% {
+        top: 50%;
+        opacity: 0;
+    }
+}
+@keyframes break2 {
+    0%,14% {
+        background-position: 16.666% 0%;
+    }
+    15%,29% {
+        background-position: 33.333% 0%;
+    }
+    30%,44% {
+        background-position: 50% 0%;
+    }
+    45%,59% {
+        background-position: 66.666% 0%;
+    }
+    60%,74% {
+        background-position: 83.333% 0%;
+    }
+    75%,98% {
+        background-position: 100% 0%;
+    }
+}

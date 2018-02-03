@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="136px" height="139px" viewBox="0 0 136 139" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>building_4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0.8,20.0 C0.2,22.0 0,24.0 0,26.2 C0,39.2 10.5,49.7 23.5,49.7 C36.4,49.7 47,39.2 47,26.2 C47,24.0 46.7,22.0 46.1,20.0 C46.2,20.0 46.3,20.0 46.3,20.0 L45.8,19.0 C45.3,17.3 44.6,15.8 43.7,14.3 L37.3,0 L23.5,0 C23.5,0 23.5,1.0 23.5,2.7 C23.5,2.7 23.5,2.7 23.5,2.7 C23.5,1.0 23.5,0 23.5,0 L9.6,0 L3.2,14.3 C2.3,15.8 1.6,17.4 1.1,19.0 L0.6,20.0 C0.6,20.0 0.7,20.0 0.8,20.0 Z" id="path-1"></path>
+        <path d="M5.9,2.0 C14.9,-1.9 36,2.0 37,11 C38,19.9 29.9,23 36.9,28.9 C43.9,34.9 35.2,44 25.2,41.9 C15.2,39.9 2.9,36.9 1.9,28.9 C1.0,20.9 -3.0,6.0 5.9,2.0 Z" id="path-3"></path>
+        <path d="M1.2,29.0 C0.4,31.8 0,34.8 0,38 C0,56.7 15.2,72 34,72 C52.7,72 68,56.7 68,38 C68,34.8 67.5,31.8 66.7,29.0 C66.9,29.0 67.0,29 67.0,29 L66.3,27.5 C65.5,25.1 64.5,22.9 63.3,20.8 L54.0,0 L34.0,0 C34.0,0 34.0,1.5 34.0,4.0 C34.0,4.0 34.0,4.0 34.0,4.0 C34.0,1.5 34,0 34,0 L14,0 L4.7,20.7 C3.4,22.8 2.3,25.2 1.6,27.6 L1,29 C1,29 1.0,29.0 1.2,29.0 Z" id="path-5"></path>
+        <path d="M0.8,20.0 C0.2,22.0 0,24.0 0,26.2 C0,39.2 10.5,49.7 23.5,49.7 C36.4,49.7 47,39.2 47,26.2 C47,24.0 46.7,22.0 46.1,20.0 C46.2,20.0 46.3,20.0 46.3,20.0 L45.8,19.0 C45.3,17.3 44.6,15.8 43.7,14.3 L37.3,0 L23.5,0 C23.5,0 23.5,1.0 23.5,2.7 C23.5,2.7 23.5,2.7 23.5,2.7 C23.5,1.0 23.5,0 23.5,0 L9.6,0 L3.2,14.3 C2.3,15.8 1.6,17.4 1.1,19.0 L0.6,20.0 C0.6,20.0 0.7,20.0 0.8,20.0 Z" id="path-7"></path>
+        <path d="M15,1 L0,6.9 L4,15.0 C4,15.0 10,12.9 13,11.9 C16,10.9 19,2.2e-08 15,1 Z" id="path-9"></path>
+    </defs>
+    <g id="Page-1-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="building_4">
+            <g id="Group-25" transform="translate(4.0, 3.0)">
+                <circle id="Oval-20-Copy-2" fill="#20292B" cx="49" cy="39" r="22"></circle>
+                <g id="Group-22-Copy-2" transform="translate(25.0, 0.0)">
+                    <g id="Group-21" transform="translate(0.0, 8.2)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#523B28" xlink:href="#path-1"></use>
+                        <path d="M17.9,14.5 L8.2,46.9 C8.2,46.9 17.2,58 17.9,58 C18.6,58 38.7,52.4 40.0,52.4 C41.4,52.4 57.3,33.8 57.3,32.4 C57.3,31.0 53.9,12.4 52.5,10.3 C51.1,8.2 41.4,-4.8 40.7,-6.2 C40.0,-7.5 35.9,-9.6 35.9,-9.6 L17.9,14.5 Z" id="Path-59" fill-opacity="0.2" fill="#000000" mask="url(#mask-2)"></path>
+                    </g>
+                    <path d="M23.5,30.3 C31.8,30.3 38.7,23.5 38.7,15.1 C38.7,6.8 31.8,0 23.5,0 C15.1,0 8.2,6.8 8.2,15.1 C8.2,23.5 15.1,30.3 23.5,30.3 Z" id="Oval-19-Copy" fill="#FF0000"></path>
+                    <path d="M36.8,6.6 C34.3,4.4 31.0,3.1 27.4,3.1 C19.6,3.1 13.3,9.4 13.3,17.1 C13.3,22.4 16.2,27.0 20.4,29.4 L20.4,29.4" id="Oval-19-Copy-3" stroke="#2B2218" stroke-width="4" stroke-linecap="round" transform="translate(25.1, 16.2) rotate(-165.0) translate(-25.1, -16.2) "></path>
+                    <path d="M32.7,4.6 C30.2,2.3 26.9,1.0 23.3,1.0 C15.5,1.0 9.2,7.3 9.2,15.1 C9.2,20.3 12.0,24.9 16.3,27.3 L16.3,27.3" id="Oval-19-Copy-2" stroke="#6C4B2F" stroke-width="4" stroke-linecap="round"></path>
+                </g>
+                <g id="Group-3" transform="translate(90.0, 65.0)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <use id="Mask" fill="#000000" xlink:href="#path-3"></use>
+                    <path d="M23.6,0.4 C30.5,1.9 36.4,5.3 37,10 C38,18.9 29.9,22 36.9,27.9 C43.9,33.9 35.2,43 25.2,40.9 C23.1,40.5 21.0,40.1 18.9,39.6 L25,11 L23,3 L23.6,0.4 L23.6,0.4 Z" id="Combined-Shape" fill="#D8CC9E" mask="url(#mask-4)"></path>
+                </g>
+                <circle id="Oval-20" fill="#20292B" cx="34.5" cy="97.5" r="32.5"></circle>
+                <circle id="Oval-20-Copy" fill="#20292B" cx="92" cy="75" r="22"></circle>
+                <g id="Group-22" transform="translate(0.0, 43.0)">
+                    <g id="Group-21" transform="translate(0.0, 12.0)">
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <use id="Mask" fill="#FFFDD6" xlink:href="#path-5"></use>
+                        <path d="M26,21 L12,68 C12,68 25,84 26,84 C27,84 56,76 58,76 C60,76 83,49 83,47 C83,45 78,18 76,15 C74,12 60,-7 59,-9 C58,-11 52,-14 52,-14 L26,21 Z" id="Path-59" fill-opacity="0.2" fill="#334144" mask="url(#mask-6)"></path>
+                    </g>
+                    <path d="M34.5,43 C45.8,43 55,33.8 55,22.5 C55,11.1 45.8,2 34.5,2 C23.1,2 14,11.1 14,22.5 C14,33.8 23.1,43 34.5,43 Z" id="Oval-19-Copy" fill="#8C8B6C"></path>
+                    <path d="M53.3,9.6 C49.7,6.4 44.9,4.5 39.7,4.5 C28.4,4.5 19.3,13.6 19.3,24.8 C19.3,32.4 23.4,39.1 29.6,42.6 L29.6,42.6" id="Oval-19-Copy-3" stroke="#ABAD86" stroke-width="4" stroke-linecap="round" transform="translate(36.3, 23.5) rotate(-165.0) translate(-36.3, -23.5) "></path>
+                    <path d="M47.3,6.6 C43.7,3.4 38.9,1.5 33.7,1.5 C22.4,1.5 13.3,10.6 13.3,21.8 C13.3,29.4 17.4,36.1 23.6,39.6 L23.6,39.6" id="Oval-19-Copy-2" stroke="#E5FFF4" stroke-width="4" stroke-linecap="round"></path>
+                </g>
+                <g id="Group-22-Copy" transform="translate(68.0, 37.0)">
+                    <g id="Group-21" transform="translate(0.0, 8.2)">
+                        <mask id="mask-8" fill="white">
+                            <use xlink:href="#path-7"></use>
+                        </mask>
+                        <use id="Mask" fill="#4CC758" xlink:href="#path-7"></use>
+                        <path d="M14.8,25.0 L17.9,14.5 L35.9,-9.6 C35.9,-9.6 40.0,-7.5 40.7,-6.2 C41.4,-4.8 51.1,8.2 52.5,10.3 C53.9,12.4 57.3,31.0 57.3,32.4 C57.3,33.8 41.4,52.4 40.0,52.4 C38.7,52.4 18.6,58 17.9,58 C17.2,58 8.2,46.9 8.2,46.9 L11.5,36.0 C9.6,34.4 7.7,32.8 7,31.7 C7,27.7 9,20.7 11,22.7 C11.6,23.3 13.1,24.2 14.8,25.0 Z" id="Combined-Shape" fill-opacity="0.2" fill="#334144" mask="url(#mask-8)"></path>
+                    </g>
+                    <ellipse id="Oval-19-Copy" fill="#3D512F" cx="23.5" cy="15.1" rx="15.2" ry="15.1"></ellipse>
+                    <path d="M36.8,6.6 C34.3,4.4 31.0,3.1 27.4,3.1 C19.6,3.1 13.3,9.4 13.3,17.1 C13.3,22.4 16.2,27.0 20.4,29.4 L20.4,29.4" id="Oval-19-Copy-3" stroke="#307739" stroke-width="4" stroke-linecap="round" transform="translate(25.1, 16.2) rotate(-165.0) translate(-25.1, -16.2) "></path>
+                    <path d="M32.7,4.6 C30.2,2.3 26.9,1.0 23.3,1.0 C15.5,1.0 9.2,7.3 9.2,15.1 C9.2,20.3 12.0,24.9 16.3,27.3 L16.3,27.3" id="Oval-19-Copy-2" stroke="#83E465" stroke-width="4" stroke-linecap="round"></path>
+                </g>
+                <g id="Group-23" transform="translate(62.0, 67.0)">
+                    <mask id="mask-10" fill="white">
+                        <use xlink:href="#path-9"></use>
+                    </mask>
+                    <use id="Mask" fill="#D2FCFF" xlink:href="#path-9"></use>
+                    <path d="M-2,10 L21,1 L15,17 L1,22 L-3,11 L-2,10 Z" id="Path-61" fill="#D8CBA0" mask="url(#mask-10)"></path>
+                </g>
+                <path d="M26.5,57.5 L39.5,70.5" id="Line" stroke-opacity="0.5" stroke="#000000" stroke-width="2" stroke-linecap="round"></path>
+                <path d="M31.5,54.5 L42.5,65.5" id="Line-Copy" stroke-opacity="0.5" stroke="#000000" stroke-width="2" stroke-linecap="round"></path>
+                <path d="M23.5,62.5 L34.5,73.5" id="Line-Copy-2" stroke-opacity="0.5" stroke="#000000" stroke-width="2" stroke-linecap="round"></path>
+                <g id="Group-24" opacity="0.6" transform="translate(52.0, 99.0)" stroke="#FFFFFF">
+                    <polyline id="Path-60" points="0 5 4 7 15 33"></polyline>
+                    <polyline id="Path-60-Copy" points="6 0 10 2 21 28"></polyline>
+                    <path d="M10.5,5.5 L5.5,9.5" id="Line" stroke-linecap="square"></path>
+                    <path d="M12.5,9.5 L7.5,13.5" id="Line-Copy-3" stroke-linecap="square"></path>
+                    <path d="M14.5,13.5 L9.5,17.5" id="Line-Copy-4" stroke-linecap="square"></path>
+                    <path d="M15.5,17.5 L11,21" id="Line-Copy-5" stroke-linecap="square"></path>
+                    <path d="M17.5,21.5 L12.5,25.5" id="Line-Copy-6" stroke-linecap="square"></path>
+                    <path d="M19.5,25.5 L14.5,29.5" id="Line-Copy-7" stroke-linecap="square"></path>
+                </g>
+                <path d="M60.4,88.2 C57.2,97.5 49.1,104.6 39.2,106.5 L38.3,91.5 C46.4,89.8 53.0,83.9 55.7,76.1 L60.4,88.2 Z" id="Combined-Shape" stroke-opacity="0.1" stroke="#000000" fill-opacity="0.2" fill="#FFFFFF" opacity="0.5"></path>
+                <path d="M93,103 C90,103 87,104 87,107 C87,110 90,111 93,111 C96,111 98,109 98,107 C98,105 96,103 93,103 Z" id="Path-67" fill="#000000"></path>
+            </g>
+        </g>
+    </g>
+</svg>

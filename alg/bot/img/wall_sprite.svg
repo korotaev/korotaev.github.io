@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>wall_sprite</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="6.46139706" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <path d="M0.376378676,65.0294118 C0.168510473,63.9410859 0,62.1642101 0,61.0601065 L0,9.58300781 L0,2.00891247 C0,0.899420747 0.898388019,0 2.00675195,0 L10.5371094,0 L59.2587341,0 C60.3655865,0 61.8509814,0.667151283 62.5794887,1.49356379 L61.6833789,0.477024443 C62.4105287,1.30189695 63,2.86511692 63,3.97016059 L63,65.0004276 C63,66.104761 62.0960586,67 60.9994236,67 L2.75333375,67 C1.64844591,67 0.585696099,66.1253252 0.376378676,65.0294118 L0.376378676,65.0294118 Z" id="path-2"></path>
+    </defs>
+    <g id="Page-1-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="wall_sprite">
+            <g id="Group-2-Copy-15" transform="translate(33.000000, 29.000000)">
+                <path d="M6.42049123,63.7734324 C5.63597559,62.9889168 5.19975379,61.4869497 5.44910618,60.4059338 L14.5508936,20.9470078 C14.7989281,19.8717053 15.8660794,18.8047305 16.9486407,18.5606516 L57.4043002,9.43934877 C58.4805049,9.19670315 59.9882103,9.63526917 60.7734324,10.4204912 L61.5795088,11.2265676 C62.3640244,12.0110832 63,13.5507129 63,14.6411833 L63,64.0058755 C63,65.1072001 62.1019513,66 61.0010892,66 L10.6459697,66 C9.54200169,66 8.01178966,65.3647308 7.22656759,64.5795088 L6.42049123,63.7734324 Z" id="Mask" fill="#934832" filter="url(#filter-1)"></path>
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="Mask" fill="#934832" xlink:href="#path-2"></use>
+                <rect id="Rectangle-3-Copy-36" fill="#FFD89A" mask="url(#mask-3)" x="0" y="0" width="63" height="63" rx="2"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

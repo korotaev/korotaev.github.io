@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="108px" height="108px" viewBox="0 0 108 108" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>arr_right</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="arr_right" fill-rule="nonzero" fill="#FFFFFF">
+            <path d="M31.5,58 L71.512498,58 C73.9977794,58 76.012498,55.9852814 76.012498,53.5 C76.012498,51.0147186 73.9977794,49 71.512498,49 L31.5,49 C29.0147186,49 27,51.0147186 27,53.5 C27,55.9852814 29.0147186,58 31.5,58 Z" id="Line"></path>
+            <path d="M49.6170094,70.4159992 C47.85965,72.1733585 47.85965,75.0226009 49.6170094,76.7799603 C51.3743687,78.5373196 54.2236111,78.5373196 55.9809704,76.7799603 L78.9619408,53.7989899 L55.9809704,30.8180195 C54.2236111,29.0606602 51.3743687,29.0606602 49.6170094,30.8180195 C47.85965,32.5753788 47.85965,35.4246212 49.6170094,37.1819805 L66.2340187,53.7989899 L49.6170094,70.4159992 Z" id="Rectangle-2"></path>
+        </g>
+    </g>
+</svg>

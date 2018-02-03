@@ -1,0 +1,99 @@
+
+body {
+    padding: 0;
+    padding-top: 30px;
+    margin: 0;
+    background-color: #797979;
+    font-size: 20px;
+    overflow-x: hidden;
+}
+
+img, a {
+}
+p {
+    margin: 30px;
+    color: white;
+    font-size: 20px;
+}
+img {
+    box-shadow: 0 2px 7px 0px rgba(0,0,0,0.3);
+}
+
+a {
+    /*color: white;*/
+    font-size: 20px;
+}
+
+.land {
+    margin: 50px;
+    /*border: 1px solid red;*/
+    position: relative;
+}
+
+.title {
+    background-image: url('../img/1.png');
+    width: 489px;
+    height: 236px;
+    top: 360px;
+    left: 720px;
+    animation: multf .8s linear infinite;
+}
+.gifts {
+    background-image: url('../img/2.png');
+    width: 1195px;
+    height: 496px;
+    top: 1320px;
+    left: 20px;
+    animation: multf .8s linear infinite;
+}
+.super {
+    background-image: url('../img/3.png');
+    width: 233px;
+    height: 300px;
+    top: 3130px;
+    left: 550px;
+    animation: multf .8s linear infinite;
+}
+.hat1 {
+    background-image: url('../img/4.png');
+    width: 88px;
+    height: 100px;
+    top: 3670px;
+    left: 770px;
+    animation: multf .8s linear infinite;
+}
+.hat2 {
+    background-image: url('../img/5.png');
+    width: 108px;
+    height: 100px;
+    top: 4243px;
+    left: 795px;
+    animation: multf .8s linear infinite;
+}
+.hat3 {
+    background-image: url('../img/6.png');
+    width: 97px;
+    height: 100px;
+    top: 3935px;
+    left: 833px;
+    animation: multf .8s linear infinite;
+}
+@keyframes multf {
+    0%, 32.9% {
+        background-position: 0 0%;
+    }
+    33%, 65.9% {
+        background-position: 0 -50%;
+    }
+    66%,99.9% {
+        background-position: 0 -100%;
+    }
+    100% {
+        background-position: 0 0%;
+    }
+}
+
+.mult {
+    position: absolute;
+    background-size: 100%;
+}

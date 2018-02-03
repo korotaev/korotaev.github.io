@@ -1,0 +1,12 @@
+
+body {
+    padding: 50px;
+    margin: 0;
+    background-color: #bbb;
+    font-size: 20px;
+    overflow-x: hidden;
+}
+
+img {
+    margin: 30px;
+}
