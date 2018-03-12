@@ -55,9 +55,9 @@ function initCustom(that) {
         toy.y += -toy.speed;
         createjs.Tween.get(that.knight).to({y:toy.y},1300).call(function () {
             that.knight.status = 'stop';
-            that.knight.gotoAndPlay('lastStepFront');
+            that.knight.gotoAndPlay('lastStepBack');
         });
-        that.knight.gotoAndStop('standFront');
+        that.knight.gotoAndStop('standBack');
         that.knight.play();
     }
     function downClicked() {
