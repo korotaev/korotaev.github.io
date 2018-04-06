@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>back-done</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="back-done" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M30,57 C35.3352736,57 40.2462555,55.1833915 44.1481505,52.1349698 C49.5361284,47.9255207 53,41.3672757 53,34 C53,21.2974508 42.7025492,11 30,11 C17.2974508,11 7,21.2974508 7,34 C7,46.7025492 17.2974508,57 30,57 Z" id="Oval-5-Copy-4" fill="#2A8828"></path>
+        <path d="M30,53 C35.2615159,53 40.1103904,51.2332719 43.9857479,48.260691 C49.4664239,44.0567557 53,37.4410333 53,30 C53,17.2974508 42.7025492,7 30,7 C17.2974508,7 7,17.2974508 7,30 C7,42.7025492 17.2974508,53 30,53 Z" id="Oval-5-Copy-5" fill="#27EE08"></path>
+    </g>
+</svg>
