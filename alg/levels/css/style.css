@@ -12,6 +12,15 @@ body {
     src: url('../fonts/Circe-Bold.otf') format("opentype");
 }
 
+.root-logo {
+    width: 600px;
+    height: 280px;
+    left: 340px;
+    top: 0;
+    background-image: url('../img/logo_rus.png');
+    position: absolute;
+}
+
 .level {
     width: 1280px;
     height: 800px;
@@ -113,6 +122,15 @@ body {
     transition: 0.2s transform;
 }
 
+.point-root-back--wait:before {
+    content: '';
+    display: block;
+    position: absolute;
+    animation: 3s waiting infinite;
+
+    background-image: url('../img/root_animation_wait.svg');
+    background-size: cover;
+}
 .point-back--wait:after {
     content: '';
     display: block;
@@ -163,6 +181,10 @@ body {
 }
 
 @keyframes waiting {
+    0%,39% {
+        opacity: 0;
+
+    }
     40% {
         width: 90%;
         height: 90%;
