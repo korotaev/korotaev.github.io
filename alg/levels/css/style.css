@@ -30,6 +30,7 @@ body {
 .level-0 { background-image: url('../img/00.jpg'); }
 .level-1 { background-image: url('../img/01.jpg'); }
 .level-2 { background-image: url('../img/02.jpg'); }
+.level-3 { background-image: url('../img/03.jpg'); }
 
 .curve {
     width: 1000px;
@@ -39,6 +40,7 @@ body {
 }
 .curve-1 { background-image: url('../img/curve01.svg'); }
 .curve-2 { background-image: url('../img/curve02.svg'); }
+.curve-3 { background-image: url('../img/curve03.svg'); }
 
 .point-container {
     position: absolute;
@@ -74,6 +76,19 @@ body {
 .position2-10 { left: 303px; top: 147px; }
 .position2-11 { left: 1192px; top: 176px; }
 .position2-12 { left: 506px; top: 52px; }
+
+.position3-1 { left: 690px; top: 744px; }
+.position3-2 { left: 320px; top: 601px; }
+.position3-3 { left: 186px; top: 365px; }
+.position3-4 { left: 345px; top: 375px; }
+.position3-5 { left: 380px; top: 200px; }
+.position3-6 { left: 745px; top: 221px; }
+.position3-7 { left: 1020px; top: 395px; }
+.position3-8 { left: 584px; top: 489px; }
+.position3-9 { left: 300px; top: 250px; }
+.position3-10 { left: 389px; top: 118px; }
+.position3-11 { left: 813px; top: 117px; }
+.position3-12 { left: 959px; top: 325px; }
 
 .point-back {
     width: 60px;
