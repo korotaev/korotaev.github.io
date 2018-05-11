@@ -6,7 +6,9 @@ var loadedTypekitCount = 0;
 var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
-lib.ssMetadata = [];
+lib.ssMetadata = [
+		{name:"call_atlas_", frames: [[0,0,750,1334],[0,2672,750,1334],[0,1336,750,1334],[752,0,216,216]]}
+];
 
 
 
@@ -70,27 +72,31 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 
 (lib._11b = function() {
-	this.initialize(img._11b);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,750,1334);
+	this.spriteSheet = ss["call_atlas_"];
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
 
 
 (lib._20copy2x = function() {
-	this.initialize(img._20copy2x);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,750,1334);
+	this.spriteSheet = ss["call_atlas_"];
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
 
 
 (lib.background = function() {
-	this.initialize(img.background);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,750,1334);
+	this.spriteSheet = ss["call_atlas_"];
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
 
 
 (lib.dooricon = function() {
-	this.initialize(img.dooricon);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,216,216);// helper functions:
+	this.spriteSheet = ss["call_atlas_"];
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -593,10 +599,7 @@ lib.properties = {
 	opacity: 1.00,
 	webfonts: {},
 	manifest: [
-		{src:"images/_11b.png", id:"_11b"},
-		{src:"images/_20copy2x.png", id:"_20copy2x"},
-		{src:"images/background.png", id:"background"},
-		{src:"images/dooricon.png", id:"dooricon"}
+		{src:"images/call_atlas_.png", id:"call_atlas_"}
 	],
 	preloads: []
 };
