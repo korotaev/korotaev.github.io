@@ -31,6 +31,11 @@ body {
 .level-1 { background-image: url('../img/01.jpg'); }
 .level-2 { background-image: url('../img/02.jpg'); }
 .level-3 { background-image: url('../img/03.jpg'); }
+.level-4 { background-image: url('../img/04.jpg'); }
+.level-5 { background-image: url('../img/05.jpg'); }
+.level-6 { background-image: url('../img/06.jpg'); }
+.level-7 { background-image: url('../img/07.jpg'); }
+.level-8 { background-image: url('../img/08.jpg'); }
 
 .curve {
     width: 1000px;
@@ -41,6 +46,11 @@ body {
 .curve-1 { background-image: url('../img/curve01.svg'); }
 .curve-2 { background-image: url('../img/curve02.svg'); }
 .curve-3 { background-image: url('../img/curve03.svg'); }
+.curve-4 { background-image: url('../img/curve04.svg'); }
+.curve-5 { background-image: url('../img/curve05.svg'); }
+.curve-6 { background-image: url('../img/curve06.svg'); }
+.curve-7 { background-image: url('../img/curve07.svg'); }
+.curve-8 { background-image: url('../img/curve08.svg'); }
 
 .point-container {
     position: absolute;
@@ -93,6 +103,32 @@ body {
 .position3-10 { left: 389px; top: 118px; }
 .position3-11 { left: 813px; top: 117px; }
 .position3-12 { left: 959px; top: 325px; }
+
+.position4-1 { left: 1066px; top: 741px; }
+.position4-2 { left: 961px; top: 437px; }
+.position4-3 { left: 566px; top: 409px; }
+.position4-4 { left: 242px; top: 509px; }
+.position4-5 { left: 203px; top: 255px; }
+.position4-6 { left: 641px; top: 220px; }
+.position4-7 { left: 1022px; top: 133px; }
+.position4-8 { left: 866px; top: 579px; }
+.position4-9 { left: 498px; top: 591px; }
+.position4-10 { left: 166px; top: 150px; }
+.position4-11 { left: 366px; top: 87px; }
+.position4-12 { left: 738px; top: 147px; }
+
+.position5-1 { left: 1091px; top: 703px; }
+.position5-2 { left: 712px; top: 717px; }
+.position5-3 { left: 445px; top: 716px; }
+.position5-4 { left: 355px; top: 518px; }
+.position5-5 { left: 507px; top: 241px; }
+.position5-6 { left: 670px; top: 169px; }
+.position5-7 { left: 941px; top: 146px; }
+.position5-8 { left: 520px; top: 608px; }
+.position5-9 { left: 175px; top: 501px; }
+.position5-10 { left: 811px; top: 316px; }
+.position5-11 { left: 758px; top: 59px; }
+.position5-12 { left: 1100px; top: 300px; }
 
 .point-back {
     width: 60px;

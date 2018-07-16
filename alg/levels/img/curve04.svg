@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000px" height="800px" viewBox="0 0 1000 800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>curve04</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="curve04" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <polyline id="Rectangle-Copy-5" stroke="#FFFFFF" stroke-width="8" stroke-linejoin="round" transform="translate(965.851459, 628.568364) rotate(-52.000000) translate(-965.851459, -628.568364) " points="955.480731 616.555075 976.222186 619.840199 972.937063 640.581654"></polyline>
+        <path d="M927.46875,737.714844 C1026.19922,556.964844 931.792969,422.179688 651.320312,400 C370.847656,377.820313 310.863281,460.179688 123.925781,503.082031 C-63.0117187,545.984375 18.7460937,302.855469 95.2851563,213.683594 C171.824219,124.511719 234.062147,89.609375 455.8125,198.277344 C677.562853,306.945313 792.078125,263.773438 883.078125,132.4375" id="Path-23" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="1,17"></path>
+        <polyline id="Rectangle-Copy-7" stroke="#FFFFFF" stroke-width="8" stroke-linejoin="round" transform="translate(316.641806, 437.906966) rotate(-168.000000) translate(-316.641806, -437.906966) " points="306.271078 425.893676 327.012533 429.1788 323.727409 449.920255"></polyline>
+        <polyline id="Rectangle-Copy-9" stroke="#FFFFFF" stroke-width="8" stroke-linejoin="round" transform="translate(699.641806, 260.906966) rotate(25.000000) translate(-699.641806, -260.906966) " points="689.271078 248.893676 710.012533 252.1788 706.727409 272.920255"></polyline>
+        <polyline id="Rectangle-Copy-8" stroke="#FFFFFF" stroke-width="8" stroke-linejoin="round" transform="translate(30.641806, 330.906966) rotate(-32.000000) translate(-30.641806, -330.906966) " points="20.271078 318.893676 41.0125332 322.1788 37.7274094 342.920255"></polyline>
+    </g>
+</svg>
