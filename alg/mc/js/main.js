@@ -370,7 +370,7 @@ function getPos(x, y, z) {
     var o = {
         x:67*(x+z) - 243,
         y:39*(z-x-2*y) + 432,
-        z: 2*(z-x)+y+14
+        z: 2*(z-x)+14
     };
     return o;
 }
@@ -378,7 +378,7 @@ function getShift(x, y, z) {
     var o = {
         x:67*(x+z),
         y:39*(z-x-2*y),
-        z: 2*(z-x)+y+14
+        z: 2*(z-x)+14
     };
     return o;
 }
