@@ -1,31 +1,5 @@
 
 
-/*
- var fizzyText = new FizzyText();
- var gui = new dat.GUI();
-
- gui.remember(fizzyText);
-
- // Add controllers ...
- Click the  icon to change your save settings. You can either save your GUI's values to localStorage, or by copying and pasting a JSON object into your source code as follows:
-
- var fizzyText = new FizzyText();
- var gui = new dat.GUI({ load: JSON });
-
- gui.remember(fizzyText);
-
- // Add controllers ...
- */
-
-
-
-/*
- var gui = new dat.GUI({
- load: JSON,
- preset: 'Flow'
- });
- */
-
 var gui;
 
 var defaultColumn = {
