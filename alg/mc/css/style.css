@@ -21,6 +21,7 @@ body {
 .wall {
     background-image: url('../img/cubes.svg');
 }
+.wall.wall-0 { background-position: 0px -450px; height: 170px;}
 .wall.wall-1 { background-position: 0px 0px; height: 170px;}
 .wall.wall-2 { background-position: -150px 0px; height: 280px;}
 .wall.wall-3 { background-position: -300px 0px; height: 350px;}

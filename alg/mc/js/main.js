@@ -104,13 +104,13 @@ var update = function() {
 
             ui.column.add(par,'type',[ 'wall', 'transport-1', 'transport-2' ]);
 
-            ui.column.add(par,'x', 0, 10).step(1);
-            ui.column.add(par,'y', 0, 10).step(1);
-            ui.column.add(par,'z', 0, 10).step(1);
+            ui.column.add(par,'x', -2, 12).step(1);
+            ui.column.add(par,'y', -2, 12).step(1);
+            ui.column.add(par,'z', -2, 12).step(1);
 
             if(par.type == 'wall') {
 
-                ui.column.add(par,'height', 1, 8).step(1);
+                ui.column.add(par,'height', 0, 8).step(1);
                 ui.column.add(par,'stuff', ['nothing', 'bot', 'coin', 'box', 'bomb', 'gear']);
 
                 if(par.stuff == 'bot') {

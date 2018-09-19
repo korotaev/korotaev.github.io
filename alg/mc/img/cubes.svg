@@ -3,7 +3,12 @@
     <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
     <title>cubes</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="90.372057%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.194095335" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
     <g id="cubes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group" stroke="#4F4F4F" fill="#202D36" transform="translate(600.000000, 308.000000)">
             <polygon id="Rectangle" fill="#FFFFFF" points="74 7 141 45.8980182 74 84.7960364 7 45.8980182"></polygon>
@@ -45,6 +50,7 @@
             <polygon id="Combined-Shape" fill="#B3B3B3" points="74 84.7960364 140.824341 46 141 46 141 123 140.824341 123 74 161.796036"></polygon>
             <polygon id="Combined-Shape-Copy" fill="#828282" transform="translate(40.500000, 103.898018) scale(-1, 1) translate(-40.500000, -103.898018) " points="7 84.7960364 73.8243412 46 74 46 74 123 73.8243412 123 7 161.796036"></polygon>
         </g>
+        <polygon id="Rectangle" fill="url(#linearGradient-1)" points="74 457 141 495.898018 141 580.521484 7 580.521484 7 495.898018"></polygon>
         <g id="Group" stroke="#4F4F4F" fill="#202D36" transform="translate(150.000000, 0.000000)">
             <polygon id="Rectangle" fill="#FFFFFF" points="74 7 141 45.8980182 74 84.7960364 7 45.8980182"></polygon>
             <polygon id="Combined-Shape" fill="#B3B3B3" points="74 84.7960364 140.824341 46 141 46 141 123 140.824341 123 74 161.796036"></polygon>
