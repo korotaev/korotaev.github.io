@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600px" height="100px" viewBox="0 0 600 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>threshold</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="threshold" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Combined-Shape" stroke="#4F4F4F" fill="#202D36" points="228 82 228 69.6944653 264.372091 49 286 49 228 82"></polygon>
+        <polygon id="Combined-Shape" stroke="#4F4F4F" fill="#202D36" points="78 21.6016448 78 9 136 43 114.503076 43"></polygon>
+        <polygon id="Path" stroke="#4F4F4F" fill="#202D36" points="520 21.6016448 483.496924 43 462 43 520 9"></polygon>
+        <polygon id="Path" stroke="#4F4F4F" fill="#202D36" points="369.996983 82.4737667 312.34 49 333.84 49 369.996983 69.9915668"></polygon>
+    </g>
+</svg>

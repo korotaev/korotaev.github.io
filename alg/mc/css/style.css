@@ -1,0 +1,126 @@
+body {
+    padding: 15px;
+    margin: 0;
+    background-color: white;
+}
+
+#map {
+    background-image: url('../img/map.svg');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.cube {
+    position: absolute;
+    width: 150px;
+    height: 300px;
+}
+.wall {
+    background-image: url('../img/cubes.svg');
+}
+.wall.wall-1 { background-position: 0px 0px; height: 170px;}
+.wall.wall-2 { background-position: -150px 0px; height: 280px;}
+.wall.wall-3 { background-position: -300px 0px; height: 350px;}
+.wall.wall-4 { background-position: -450px 0px; height: 420px;}
+.wall.wall-5 { background-position: -600px 0px; height: 490px;}
+.wall.wall-6 { background-position: -750px 0px; height: 560px;}
+.wall.wall-7 { background-position: -900px 0px; height: 630px;}
+.wall.wall-8 { background-position: -1050px 0px; height: 710px;}
+
+.select {
+    width: 150px;
+    height: 100px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background-image: url('../img/select.svg');
+}
+.transport-2 .select {
+    left: 52px;
+    top: 27px;
+}
+
+.stuff {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    background-image: url('../img/stuff.svg');
+}
+.stuff-box { background-position: 0px 0px;}
+.stuff-coin { background-position: -150px 0px;}
+.stuff-bomb { background-position: -300px 0px;}
+.stuff-gear { background-position: -450px 0px;}
+
+.threshold {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    background-image: url('../img/threshold.svg');
+}
+.thres-east { background-position: 0px 0px;}
+.thres-south { background-position: -150px 0px;}
+.thres-west { background-position: -300px 0px;}
+.thres-north { background-position: -450px 0px;}
+
+.bot {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    background-image: url('../img/bot.svg');
+}
+.bot-east { background-position: 0px 0px;}
+.bot-south { background-position: -150px 0px;}
+.bot-west { background-position: -300px 0px;}
+.bot-north { background-position: -450px 0px;}
+
+.transport-1 {
+    position: absolute;
+    width: 150px;
+    height: 700px;
+    background-image: url('../img/trans-1.svg');
+}
+.transport-1.trans1-east { background-position: 0px 0px;}
+.transport-1.trans1-south { background-position: -150px 0px;}
+.transport-1.trans1-west { background-position: -300px 0px;}
+.transport-1.trans1-north { background-position: -450px 0px;}
+.transport-1.trans1-up { background-position: -600px 0px;}
+.transport-1.trans1-down { background-position: -750px 0px;}
+
+.shadow-1 {
+    position: absolute;
+    width: 150px;
+    height: 700px;
+    background-image: url('../img/trans-1.svg');
+    background-position: -900px 0px;
+}
+
+.transport-2 {
+    position: absolute;
+    width: 250px;
+    height: 750px;
+    transform: translate(-52px, -27px);
+}
+
+.transport-2.trans2-cw90 { background-image: url('../img/trans-2-r90.svg');}
+.transport-2.trans2-ccw90 { background-image: url('../img/trans-2-l90.svg');}
+.transport-2.trans2-cw180 { background-image: url('../img/trans-2-r180.svg');}
+.transport-2.trans2-ccw180 { background-image: url('../img/trans-2-l180.svg');}
+
+.transport-2.trans2-east { background-position: 0px 0px;}
+.transport-2.trans2-south { background-position: -250px 0px;}
+.transport-2.trans2-west { background-position: -500px 0px;}
+.transport-2.trans2-north { background-position: -750px 0px;}
+
+.shadow-2 {
+    position: absolute;
+    width: 250px;
+    height: 750px;
+    background-image: url('../img/trans-2-shad.svg');
+}
+.shadow-2.shad2-east { background-position: 0px 0px;}
+.shadow-2.shad2-south { background-position: -250px 0px;}
+.shadow-2.shad2-west { background-position: -500px 0px;}
+.shadow-2.shad2-north { background-position: -750px 0px;}

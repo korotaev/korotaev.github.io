@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000px" height="1000px" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>map</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="map" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.100000001">
+        <polygon id="Rectangle" fill="#FFFFFF" points="299 247 361 283 299 319 237 283"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="366 208 428 244 366 280 304 244"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="433 169 495 205 433 241 371 205"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="232 286 294 322 232 358 170 322"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="634 442 696 478 634 514 572 478"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="232 676 294 712 232 748 170 712"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="433 559 495 595 433 631 371 595"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="701 403 763 439 701 475 639 439"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="299 637 361 673 299 709 237 673"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="500 520 562 556 500 592 438 556"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="768 364 830 400 768 436 706 400"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="366 598 428 634 366 670 304 634"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="567 481 629 517 567 553 505 517"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="366 286 428 322 366 358 304 322"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="232 208 294 244 232 280 170 244"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="567 169 629 205 567 241 505 205"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="433 247 495 283 433 319 371 283"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="299 169 361 205 299 241 237 205"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="232 364 294 400 232 436 170 400"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="500 208 562 244 500 280 438 244"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="299 325 361 361 299 397 237 361"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="701 481 763 517 701 553 639 517"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="299 715 361 751 299 787 237 751"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="500 598 562 634 500 670 438 634"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="768 442 830 478 768 514 706 478"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="366 676 428 712 366 748 304 712"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="567 559 629 595 567 631 505 595"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="433 637 495 673 433 709 371 673"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="634 520 696 556 634 592 572 556"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="433 325 495 361 433 397 371 361"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="634 208 696 244 634 280 572 244"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="232 442 294 478 232 514 170 478"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="500 286 562 322 500 358 438 322"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="701 169 763 205 701 241 639 205"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="299 403 361 439 299 475 237 439"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="567 247 629 283 567 319 505 283"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="366 364 428 400 366 436 304 400"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="768 520 830 556 768 592 706 556"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="567 637 629 673 567 709 505 673"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="433 715 495 751 433 787 371 751"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="634 598 696 634 634 670 572 634"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="500 676 562 712 500 748 438 712"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="701 559 763 595 701 631 639 595"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="500 364 562 400 500 436 438 400"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="701 247 763 283 701 319 639 283"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="299 481 361 517 299 553 237 517"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="567 325 629 361 567 397 505 361"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="768 208 830 244 768 280 706 244"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="366 442 428 478 366 514 304 478"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="634 286 696 322 634 358 572 322"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="232 520 294 556 232 592 170 556"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="433 403 495 439 433 475 371 439"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="634 676 696 712 634 748 572 712"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="701 637 763 673 701 709 639 673"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="567 715 629 751 567 787 505 751"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="768 598 830 634 768 670 706 634"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="567 403 629 439 567 475 505 439"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="768 286 830 322 768 358 706 322"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="366 520 428 556 366 592 304 556"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="634 364 696 400 634 436 572 400"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="232 598 294 634 232 670 170 634"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="433 481 495 517 433 553 371 517"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="701 325 763 361 701 397 639 361"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="299 559 361 595 299 631 237 595"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="500 442 562 478 500 514 438 478"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="701 715 763 751 701 787 639 751"></polygon>
+        <polygon id="Rectangle" fill="#FFFFFF" points="768 676 830 712 768 748 706 712"></polygon>
+    </g>
+</svg>
