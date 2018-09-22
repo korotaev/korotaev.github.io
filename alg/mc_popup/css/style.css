@@ -1,0 +1,375 @@
+@font-face {
+    font-family: 'Cera CY';
+    src: url('../fonts/Cera-Regular-Web.eot');
+    src: url('../fonts/Cera-Regular-Web.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Cera CY Bold';
+    src: url('../fonts/Cera-Bold-Web.eot');
+    src: url('../fonts/Cera-Bold-Web.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    background-color: grey;
+    font-size: 14px;
+    font-family: 'Cera CY Bold';
+}
+
+.window {
+    width: 100%;
+    height: 819px;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    margin-bottom: 100px;
+}
+
+.prog {
+    width: 45%;
+    background-image: url('../img/prog.png');
+    height: 779px;
+    float: left;
+    background-color: white;
+    background-repeat: no-repeat;
+}
+.game {
+    float: right;
+    width: 55%;
+    background-color: #555;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 779px;
+    position: relative;
+}
+.game-interface {
+    position: absolute;
+    background-image: linear-gradient(-180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.30) 100%);
+    height: 120px;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+.button {
+    position: relative;
+    top: 25px;
+    display: inline-block;
+    background-color: #FFCD31;
+    padding: 25px 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 100px;
+    min-width: 130px;
+    font-size: 16px;
+}
+.button-popup  {
+    top: 0px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.button-retry {
+    border: 2px solid #606060;
+    background-color: transparent;
+    color: #606060;
+}
+.popup {
+    background-color: white;
+    border-radius: 50px;
+    padding: 50px 80px;
+    display: inline-block;
+    position: relative;
+
+    transform: scale(0.9,0.9) translate(0px, 20px);
+    opacity: 0;
+
+}
+.popup.popup-victory {
+    background-color: #833AE0;
+}
+.popup.popup-victory .title {
+    font-size: 99px;
+    color: white;
+}
+.popup.popup-victory .button-retry {
+    color: white;
+    border-color: white;
+    background-color: transparent;
+}
+
+.popup * {
+    /*border: 1px solid red;*/
+}
+.text {
+    font-size: 24px;
+    font-family: "Cera CY";
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.button-container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.title {
+    font-size: 50px;
+    font-family: "Cera CY Bold";
+}
+.pic-hello {
+    display: inline-block;
+    width: 361px;
+    height: 284px;
+    background-image: url('../img/pic0.png');
+}
+.pic-plant {
+    display: inline-block;
+    width: 126px;
+    height: 132px;
+    background-image: url('../img/pic1.png');
+}
+.pic-box {
+    display: inline-block;
+    width: 488px;
+    height: 179px;
+    background-image: url('../img/pic2.png');
+}
+
+
+.blind {
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    left: -10000px;
+    opacity: 0;
+}
+
+.blind-showing {
+    opacity: 1;
+    transition: opacity 0.2s ease-in;
+}
+.pop-showing {
+    transform: scale(1,1) translate(0px, 0px);
+    opacity: 1;
+    transition: all 0.5s ease-in;
+}
+
+.pop-disappear {
+    transform: scale(1.1,1.1) translate(0px, -20px);
+    opacity: 0;
+    transition: all 0.3s ease-in;
+}
+
+.blind-disappear {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+
+
+.button:hover {
+    cursor: pointer;
+    background-color: #FFD75A;
+}
+
+.prog-1 {
+    background-image: url('../img/prog.png');
+}
+.prog-2 {
+    background-image: url('../img/prog1.png');
+}
+.game-1 {
+    background-image: url('../img/game0.png');
+}
+.game-2 {
+    background-image: url('../img/game1.png');
+}
+.game-3 {
+    background-image: url('../img/game2.png');
+}
+.game-4 {
+    background-image: url('../img/game3.png');
+}
+
+.header {
+    background-color: black;
+    height: 40px;
+    text-align: center;
+    position: relative;
+}
+.pager {
+    display: inline-block;
+    line-height: 40px;
+}
+.pager-item.pager-dis {
+    opacity: 0.3;
+}
+.pager-item.pager-selected {
+    background-color: #BD10E0;
+}
+.pager-item:hover {
+    background-color: #4C4C4C;
+}
+.pager-item {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25px;
+    color: white;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 6px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.nav {
+    color: white;
+    position: absolute;
+    top: 0;
+    line-height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    opacity: 0.5;
+}
+.nav-back:before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    background-image: url('../img/back.svg');
+    display: inline-block;
+    position: relative;
+    top: 4px;
+    margin-right: 4px;
+}
+.nav-back {
+    left: 50px;
+}
+.nav-quit {
+    right: 50px;
+}
+span.star {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url('../img/snow.svg');
+    position: relative;
+    top: 3px;
+}
+span.play {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url('../img/play.svg');
+    position: relative;
+    margin-right: 10px;
+    top: 2px;
+}
+span.retry {
+    padding-left: 30px;
+}
+
+span.retry:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 21px;
+    left: 37px;
+    width: 21px;
+    height: 27px;
+    background-image: url('../img/re.svg');
+}
+
+.popup-victory span.retry:before {
+    background-image: url('../img/re_white.svg');
+}
+
+
+.spark {
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    position: absolute;
+}
+.sparkback-1 {
+    background-image: url('../img/spark.svg');
+}
+.sparkback-2 {
+    background-image: url('../img/spark-pink.svg');
+}
+.sparkback-3 {
+    background-image: url('../img/spark-yellow.svg');
+}
+.spark-1 {
+    animation: spark-drop1 4s linear 1;
+}
+.spark-2 {
+    animation: spark-drop2 5s linear 1;
+}
+.spark-3 {
+    animation: spark-drop3 6s linear 1;
+}
+
+.spark-container {
+    position: absolute;
+    height: 100%;
+}
+
+@keyframes spark-drop1 {
+    0% {
+        top: -35px;
+        width: 10px;
+        height: 10px;
+    }
+    50% {
+        width: 10px;
+        height: 10px;
+    }
+    100% {
+        top: 390%;
+        width: 0px;
+        height: 0px;
+    }
+}
+
+@keyframes spark-drop2 {
+    0% {
+        top: -35px;
+        width: 20px;
+        height: 20px;
+    }
+    50% {
+        width: 20px;
+        height: 20px;
+    }
+    100% {
+        top: 360%;
+        width: 0px;
+        height: 0px;
+    }
+}
+
+@keyframes spark-drop3 {
+    0% {
+        top: -35px;
+        width: 25px;
+        height: 25px;
+    }
+    50% {
+        width: 20px;
+        height: 20px;
+    }
+    100% {
+        top: 340%;
+        width: 0px;
+        height: 0px;
+    }
+}
+
+
+.button-retry:hover {
+    background-color: transparent;
+}
+
+
