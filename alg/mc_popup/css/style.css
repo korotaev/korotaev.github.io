@@ -272,7 +272,7 @@ body {
     display: inline-block;
     position: relative;
     top: 3px;
-    margin-right: 5px;
+    margin-right: 10px;
     background-image: url('../img/stop.svg');
 }
 .button-stop:hover {
