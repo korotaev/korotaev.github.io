@@ -26,6 +26,16 @@ function init() {
     popup($('#window5'),{pic: 'plant', text: 'Ты собрал не все монеты', buttons:['retry']});
     popup($('#window6'),{pic: 'box', text: '1. Найди ящик  2. Положи на кнопку 3. Держись крепко!', buttons:['go']});
 
+    $('.button-start-stop').click(function() {
+        $(this).parent().addClass('hiding');
+        $('.button-stop').addClass('showing');
+    });
+
+    $('.button-stop').click(function() {
+        $('.game-interface').removeClass('hiding');
+        $(this).removeClass('showing');
+    });
+
     $('.button-start').click(function() {
 
         var w = $(this).parent().parent().parent();
