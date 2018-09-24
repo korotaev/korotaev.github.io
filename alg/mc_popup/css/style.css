@@ -373,3 +373,19 @@ span.retry:before {
 }
 
 
+@media screen and (max-width: 1020px) {
+    .prog {
+        width: 50%;
+    }
+    .game {
+        width: 50%;
+    }
+    .nav-back {
+        left: 10px;
+    }
+    .nav-quit {
+        right: 10px;
+    }
+
+}
+
