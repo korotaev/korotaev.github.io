@@ -5,7 +5,7 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="stop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M14.4615385,1.53846154 L1.53846154,14.4615385" id="Line-4" stroke="#FFFFFF" stroke-width="3"></path>
-        <path d="M14.4615385,1.53846154 L1.53846154,14.4615385" id="Line-4-Copy" stroke="#FFFFFF" stroke-width="3" transform="translate(8.000000, 8.000000) scale(-1, 1) translate(-8.000000, -8.000000) "></path>
+        <path d="M14.4615385,1.53846154 L1.53846154,14.4615385" id="Line-4" stroke="#FFFFFF" stroke-width="2"></path>
+        <path d="M14.4615385,1.53846154 L1.53846154,14.4615385" id="Line-4-Copy" stroke="#FFFFFF" stroke-width="2" transform="translate(8.000000, 8.000000) scale(-1, 1) translate(-8.000000, -8.000000) "></path>
     </g>
 </svg>

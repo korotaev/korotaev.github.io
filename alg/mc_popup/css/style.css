@@ -276,10 +276,11 @@ body {
     background-image: url('../img/stop.svg');
 }
 .button-stop:hover {
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.4);
 }
 .button-stop {
-    background-color: rgba(0,0,0,0.2);
+    /*border: 2px solid white;*/
+    background-color: rgba(0,0,0,0.3);
     padding: 17px 25px;
     min-width: auto;
     color: white;
