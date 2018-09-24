@@ -288,7 +288,7 @@ body {
     transition: transform 0.2s 0.2s ease-in-out;
 }
 .button-stop.showing {
-    top: 25px;
+    top: 35px;
     transform: scale(1,1);
 
 }
