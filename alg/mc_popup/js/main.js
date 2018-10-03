@@ -19,12 +19,18 @@ function init() {
     $(window).on('resize', resize);
     resize();
 
-    popup($('#window1'),{pic: 'hello', text: 'Ты получил своего первого робота! <br>Приступай к заданию!', buttons:['go']});
+    popup($('#window1'),{pic: 'hello', title: 'Привет!', text: 'Ты получил своего первого робота! <br>Приступай к заданию!', buttons:['go']});
+    popup($('#window10'),{pic: 'pic3', text: 'Перетягивай команды направо', buttons:['go']});
+    popup($('#window11'),{pic: 'pic2', text: '1. Найди ящик  &nbsp&nbsp 2. Положи на кнопку &nbsp&nbsp 3. Уиииииии!', buttons:['go']});
+    popup($('#window12'),{pic: 'pic4', text: 'Циклы упрощают скучную работу!', buttons:['go']});
+    popup($('#window13'),{pic: 'pic5', title: 'Ракетная шахта!', text: 'Нужно добраться до кабины', buttons:['go']});
+
     popup($('#window2'),{text: 'Ты написал свои первые строчки кода!', title: 'Поздравляем!', buttons:['retry','go'], type:'good'});
     popup($('#window3'),{text: 'Ты собрал не все монеты', buttons:['retry']});
     popup($('#window4'),{title: 'Победа!', buttons:['retry','go'], type: 'victory'});
     popup($('#window5'),{pic: 'plant', text: 'Ты собрал не все монеты', buttons:['retry']});
     popup($('#window6'),{pic: 'box', text: '1. Найди ящик  2. Положи на кнопку 3. Держись крепко!', buttons:['go']});
+
 
     $('.button-start-stop').click(function() {
         $(this).parent().addClass('hiding');

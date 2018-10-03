@@ -121,6 +121,37 @@ body {
     height: 284px;
     background-image: url('../img/pic0.png');
 }
+
+.pic-pic2 {
+    background-size: cover;
+    display: inline-block;
+    width: 539px;
+    height: 199px;
+    background-image: url('../img/pic2@2x.png');
+}
+.pic-pic3 {
+    background-size: cover;
+    display: inline-block;
+    width: 422px;
+    height: 149px;
+    background-image: url('../img/pic3@2x.png');
+}
+.pic-pic4 {
+    background-size: cover;
+    display: inline-block;
+    width: 465px;
+    height: 145px;
+    background-image: url('../img/pic4@2x.png');
+}
+.pic-pic5 {
+    background-size: cover;
+    display: inline-block;
+    width: 405px;
+    height: 175px;
+    background-image: url('../img/pic5@2x.png');
+}
+
+
 .pic-plant {
     display: inline-block;
     width: 126px;
