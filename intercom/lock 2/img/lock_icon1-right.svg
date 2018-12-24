@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="130px" viewBox="0 0 65 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>lock_icon1-right</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="lock_icon1-right" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Mask" fill="#47D4D0" cx="0" cy="65" r="65"></circle>
+        <path d="M-48,108 L49,108 C37.0855198,121.502486 19.7711039,130 0.5,130 C-18.7711039,130 -36.0855198,121.502486 -48,108 Z" id="Combined-Shape" fill-opacity="0.10377038" fill="#000000"></path>
+        <path d="M-45,55.0000006 L54.8147064,55.0000634 C55.3414638,55.0000637 55.7779025,55.4086879 55.8125409,55.9343052 C56.0824274,60.0296786 56.0608955,62.5094033 55.747945,63.3734793 C55.4226078,64.2717558 53.8216873,66.0580438 50.9451835,68.732343 L50.9452083,68.7323697 C50.7601869,68.9043851 50.5169175,69 50.2642869,69 L-45,69 C-45.5522847,69 -46,68.5522847 -46,68 L-46.0000006,56 C-46.0000006,55.4477153 -45.5522854,55 -45.0000006,55 C-45.0000004,55 -45.0000002,55 -45,55 Z" id="Rectangle" stroke="#000000" stroke-width="3" fill="#FFFFFF"></path>
+        <polygon id="Rectangle-18-Copy" fill="#9F9F9F" points="-3.23736789 60 9 60 5.23736789 65 -7 65"></polygon>
+        <polygon id="Rectangle-18-Copy-2" fill="#9F9F9F" points="15.7626321 60 28 60 24.2373679 65 12 65"></polygon>
+        <polygon id="Rectangle-18-Copy-3" fill="#9F9F9F" points="34.7626321 60 47 60 43.2373679 65 31 65"></polygon>
+    </g>
+</svg>

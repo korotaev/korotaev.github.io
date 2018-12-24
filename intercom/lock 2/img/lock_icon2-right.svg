@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="130px" viewBox="0 0 65 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>lock_icon2-right</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0.5,36 L0.5,36 C11.2695526,36 20,44.7304474 20,55.5 L20,102 C20,102.552285 19.5522847,103 19,103 L-18,103 C-18.5522847,103 -19,102.552285 -19,102 L-19,55.5 C-19,44.7304474 -10.2695526,36 0.5,36 Z" id="path-1"></path>
+        <path d="M31,51 L31,51 C34.8659932,51 38,54.1340068 38,58 L38,103 C38,103.552285 37.5522847,104 37,104 L25,104 C24.4477153,104 24,103.552285 24,103 L24,58 C24,54.1340068 27.1340068,51 31,51 Z" id="path-2"></path>
+    </defs>
+    <g id="lock_icon2-right" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Mask" fill="#B28FC5" cx="0" cy="65" r="65"></circle>
+        <polygon id="Path-2-Copy" fill="#FFFFFF" transform="translate(51.000000, 77.000000) scale(-1, 1) translate(-51.000000, -77.000000) " points="45 96 47 100 51 102 57 100 57 56 53 52 47 54 45 60"></polygon>
+        <path d="M54.0923077,100.48534 L54.0923077,58.2272727 C54.0923077,55.8937731 52.2601191,54.0020979 50,54.0020979 C47.7398809,54.0020979 45.9076923,55.8937731 45.9076923,58.2272727 L45.9076923,100.997902 L53.7710987,100.997902 C53.1246913,102.018869 52.4512401,103.01993 51.7517953,104 L44.9384615,104 C43.8678788,104 43,103.103943 43,101.998601 L43,58.2272727 C43,54.2357602 46.1340068,51 50,51 C53.8659932,51 57,54.2357602 57,58.2272727 L57,95.2829603 C56.1068456,97.0668077 55.136076,98.8025243 54.0923077,100.48534 Z" id="Combined-Shape" fill="#000000"></path>
+        <path d="M-48,108 L49,108 C37.0855198,121.502486 19.7711039,130 0.5,130 C-18.7711039,130 -36.0855198,121.502486 -48,108 Z" id="Combined-Shape" fill-opacity="0.10377038" fill="#000000"></path>
+        <g id="Rectangle-9">
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            <path stroke="#000000" stroke-width="3" d="M-17.5,101.5 L18.5,101.5 L18.5,55.5 C18.5,45.5588745 10.4411255,37.5 0.5,37.5 C-9.4411255,37.5 -17.5,45.5588745 -17.5,55.5 L-17.5,101.5 Z"></path>
+        </g>
+        <g id="Rectangle-9-Copy-5">
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+            <path stroke="#000000" stroke-width="3" d="M25.5,102.5 L36.5,102.5 L36.5,58 C36.5,54.9624339 34.0375661,52.5 31,52.5 C27.9624339,52.5 25.5,54.9624339 25.5,58 L25.5,102.5 Z"></path>
+        </g>
+        <path d="M22.75,61.5 L15.25,61.5" id="Line-7-Copy-2" stroke="#000000" stroke-width="3" fill="#FFFFFF" stroke-linecap="round"></path>
+    </g>
+</svg>

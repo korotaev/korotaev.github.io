@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="130px" viewBox="0 0 65 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>lock_icon0-right</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="-34" y="34" width="67" height="75" rx="1"></rect>
+    </defs>
+    <g id="lock_icon0-right" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Mask" fill="#FFD54F" cx="0" cy="65" r="65"></circle>
+        <path d="M62.781709,48 C64.2285724,53.357952 65,58.9896711 65,64.8 C65,81.3964558 58.7060328,96.5356598 48.3551628,108 L21.011336,108 C19.9005058,108 19,107.107325 19,106.006154 L19,49.9938462 C19,48.8926753 19.9005058,48 21.011336,48 L62.781709,48 Z" id="Combined-Shape" fill-opacity="0.10377038" fill="#000000"></path>
+        <g id="Rectangle-9">
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            <rect stroke="#000000" stroke-width="3" x="-32.5" y="35.5" width="64" height="72" rx="1"></rect>
+        </g>
+        <path d="M36.8030303,107.5 L-39.8030303,107.5" id="Line-7" stroke="#000000" stroke-width="3" fill="#FFFFFF" stroke-linecap="round"></path>
+        <path d="M1.5,56.1923077 L1.5,84.8076923" id="Line-3" stroke="#000000" stroke-width="3" stroke-linecap="round"></path>
+    </g>
+</svg>

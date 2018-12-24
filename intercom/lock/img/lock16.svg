@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="41px" viewBox="0 0 41 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>lock16</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="lock16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-4" stroke="#FFFFFF" stroke-width="1.5" x="11.75" y="15.75" width="17.5" height="14.5" rx="2"></rect>
+        <path d="M35,15.5463867 C35,14.0540026 35,12.8409492 35,11 C35,8.23857625 32.7614237,6 30,6 C27.2385763,6 25,8.23857625 25,11" id="Oval-Copy" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" transform="translate(30.000000, 10.773193) scale(-1, 1) translate(-30.000000, -10.773193) "></path>
+        <rect id="Rectangle-6" fill="#FFFFFF" x="18" y="22" width="5" height="1.5" rx="0.75"></rect>
+    </g>
+</svg>

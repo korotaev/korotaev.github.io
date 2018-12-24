@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="130px" viewBox="0 0 65 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>lock_icon4-left</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="lock_icon4-left" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Mask" fill="#8FD153" cx="65" cy="65" r="65"></circle>
+        <path d="M16.6448372,108 C6.29396723,96.5356598 0,81.3964558 0,64.8 C0,58.9896711 0.771427649,53.357952 2.21829105,48 L43.988664,48 C45.0994942,48 46,48.8926753 46,49.9938462 L46,106.006154 C46,107.107325 45.0994942,108 43.988664,108 L16.6448372,108 Z" id="Combined-Shape" fill-opacity="0.10377038" fill="#000000"></path>
+        <path d="M44.9846154,32 L84.0153846,32 C85.1114574,32 86,32.8920805 86,33.9925175 L86,107 L43,107 L43,33.9925175 C43,32.8920805 43.8885426,32 44.9846154,32 Z M54.5401709,41.1877195 C53.4440981,41.1877195 52.5555556,42.0798 52.5555556,43.180237 L52.5555556,60.7808082 C52.5555556,61.8812452 53.4440981,62.7733257 54.5401709,62.7733257 L74.4598291,62.7733257 C75.5559019,62.7733257 76.4444444,61.8812452 76.4444444,60.7808082 L76.4444444,43.180237 C76.4444444,42.0798 75.5559019,41.1877195 74.4598291,41.1877195 L54.5401709,41.1877195 Z" id="Combined-Shape" stroke="#000000" stroke-width="3" fill="#FFFFFF" stroke-linecap="round"></path>
+        <path d="M54.1666667,70.5 L65.8333333,70.5" id="Line-3" stroke="#000000" stroke-width="3" stroke-linecap="round"></path>
+        <path d="M92.8,107.5 L35.2,107.5" id="Line-7" stroke="#000000" stroke-width="3" fill="#FFFFFF" stroke-linecap="round"></path>
+    </g>
+</svg>

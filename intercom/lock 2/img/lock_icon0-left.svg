@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="130px" viewBox="0 0 65 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>lock_icon0-left</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="31" y="34" width="67" height="75" rx="1"></rect>
+    </defs>
+    <g id="lock_icon0-left" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Mask" fill="#FFD54F" cx="65" cy="65" r="65"></circle>
+        <path d="M16.7579135,108 C6.33672516,96.5356598 0,81.3964558 0,64.8 C0,58.9896711 0.776668326,53.357952 2.23336096,48 L36.975,48 C38.0933766,48 39,48.8926753 39,49.9938462 L39,106.006154 C39,107.107325 38.0933766,108 36.975,108 L16.7579135,108 Z" id="Combined-Shape" fill-opacity="0.10377038" fill="#000000"></path>
+        <g id="Rectangle-9">
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            <rect stroke="#000000" stroke-width="3" x="32.5" y="35.5" width="64" height="72" rx="1"></rect>
+        </g>
+        <path d="M49.75,58.5 L42.25,58.5" id="Line-6" stroke="#000000" stroke-width="3" fill="#FFFFFF" stroke-linecap="round"></path>
+        <path d="M49.75,63.5 L42.25,63.5" id="Line-6-Copy" stroke="#000000" stroke-width="3" fill="#FFFFFF" stroke-linecap="round"></path>
+        <path d="M49.75,68.5 L42.25,68.5" id="Line-6-Copy-2" stroke="#000000" stroke-width="3" fill="#FFFFFF" stroke-linecap="round"></path>
+        <path d="M101.80303,107.5 L25.1969697,107.5" id="Line-7" stroke="#000000" stroke-width="3" fill="#FFFFFF" stroke-linecap="round"></path>
+        <path d="M66.5,56.1923077 L66.5,84.8076923" id="Line-3" stroke="#000000" stroke-width="3" stroke-linecap="round"></path>
+        <path d="M66.75,80.5 L64.25,80.5" id="Line-4" stroke="#000000" stroke-width="3" stroke-linecap="round"></path>
+        <path d="M66.75,61.5 L64.25,61.5" id="Line-5" stroke="#000000" stroke-width="3" stroke-linecap="round"></path>
+        <path d="M56.5,37.2068966 L56.5,104.836193" id="Line-2" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+    </g>
+</svg>

@@ -1,0 +1,36 @@
+body {
+    padding: 15px;
+    margin: 0;
+    background-color: white;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.obj {
+    position: absolute;
+    border: 1px solid black;
+    box-sizing: border-box;
+    transform-origin: 100% 100%;
+}
+
+.handle {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+
+}
+
+.handle.lt { left: -5px; top: -5px;}
+.handle.rt { right: -5px; top: -5px;}
+.handle.lb { left: -5px; bottom: -5px;}
+.handle.rb { right: -5px; bottom: -5px;}
+.handle.rot { left: 50%; top: -5px; border-radius: 30px; margin-left: -5px;}
+
+.dropzone {
+    border: 1px solid red;
+}
