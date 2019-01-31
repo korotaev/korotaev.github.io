@@ -52,6 +52,35 @@ body {
 .curve-7 { background-image: url('../img/curve07.svg'); }
 .curve-8 { background-image: url('../img/curve08.svg'); }
 
+.screenshot {
+    width: 1314px;
+    height: 841px;
+    margin: 40px 0;
+    position: relative;
+}
+
+.screenshot-1 { background-image: url('../img/popup/0.png'); }
+.screenshot-2 { background-image: url('../img/popup/1.png'); }
+.screenshot-3 { background-image: url('../img/popup/2.png'); }
+
+.blind {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 25%;
+}
+
+.blind-1 { background-image: url('../img/popup/lost0.gif'); }
+.blind-2 { background-image: url('../img/popup/lost1.gif'); }
+.blind-3 { background-image: url('../img/popup/lost2.gif'); }
+.blind-4 { background-image: url('../img/popup/lost3.gif'); }
+.blind-5 { background-image: url('../img/popup/lost4.gif'); }
+.blind-6 { background-image: url('../img/popup/lost5.gif'); }
+.blind-7 { background-image: url('../img/popup/dnd.gif'); }
+
 .point-container {
     position: absolute;
 }
