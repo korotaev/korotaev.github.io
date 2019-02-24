@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000px" height="800px" viewBox="0 0 1000 800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>curve08</title>
+    <desc>Created with Sketch.</desc>
+    <g id="curve08" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <path d="M240.617187,697 C381.882898,511.283735 475.625,511.283735 620.109375,581 C725.277742,631.745596 889.544929,644.049036 950.773438,532 C1061.39844,329.554687 709.828125,70 529.6875,207" id="Path-26" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="1,17"></path>
+        <polyline id="Rectangle-Copy-7" stroke="#FFFFFF" stroke-width="8" stroke-linejoin="round" transform="translate(373.641806, 567.906966) rotate(-354.000000) translate(-373.641806, -567.906966) " points="363.271078 555.893676 384.012533 559.1788 380.727409 579.920255"></polyline>
+        <polyline id="Rectangle-Copy-7" stroke="#FFFFFF" stroke-width="8" stroke-linejoin="round" transform="translate(551.641806, 190.906966) rotate(-530.000000) translate(-551.641806, -190.906966) " points="541.271078 178.893676 562.012533 182.1788 558.727409 202.920255"></polyline>
+    </g>
+</svg>

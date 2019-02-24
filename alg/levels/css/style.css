@@ -20,6 +20,9 @@ body {
     background-image: url('../img/logo_rus.png');
     position: absolute;
 }
+.root-logo-china {
+    background-image: url('../img/logo_china.png');
+}
 
 .level {
     width: 1280px;
@@ -36,6 +39,9 @@ body {
 .level-6 { background-image: url('../img/06.jpg'); }
 .level-7 { background-image: url('../img/07.jpg'); }
 .level-8 { background-image: url('../img/08.jpg'); }
+
+.level-4b { background-image: url('../img/04b.jpg'); height: 488px;}
+.level-7b { background-image: url('../img/07b.jpg'); height: 516px;}
 
 .curve {
     width: 1000px;
@@ -159,6 +165,50 @@ body {
 .position5-10 { left: 811px; top: 316px; }
 .position5-11 { left: 758px; top: 59px; }
 .position5-12 { left: 1100px; top: 300px; }
+
+
+
+
+.position6-1 { left: 244px; top: 711px; }
+.position6-2 { left: 480px; top: 563px; }
+.position6-3 { left: 976px; top: 509px; }
+.position6-4 { left: 930px; top: 319px; }
+.position6-5 { left: 640px; top: 333px; }
+.position6-6 { left: 480px; top: 80px; }
+.position6-7 { left: 984px; top: 71px; }
+.position6-8 { left: 849px; top: 734px; }
+.position6-9 { left: 202px; top: 390px; }
+.position6-10 { left: 1000px; top: 206px; }
+.position6-11 { left: 609px; top: 197px; }
+.position6-12 { left: 244px; top: 57px; }
+
+.position7-1 { left: 926px; top: 731px; }
+.position7-2 { left: 541px; top: 718px; }
+.position7-3 { left: 617px; top: 558px; }
+.position7-4 { left: 719px; top: 442px; }
+.position7-5 { left: 594px; top: 455px; }
+.position7-6 { left: 429px; top: 465px; }
+.position7-7 { left: 439px; top: 229px; }
+.position7-8 { left: 719px; top: 641px; }
+.position7-9 { left: 903px; top: 455px; }
+.position7-10 { left: 300px; top: 283px; }
+.position7-11 { left: 880px; top: 207px; }
+.position7-12 { left: 594px; top: 111px; }
+
+.position8-1 { left: 358px; top: 731px; }
+.position8-2 { left: 605px; top: 540px; }
+.position8-3 { left: 807px; top: 597px; }
+.position8-4 { left: 1110px; top: 466px; }
+.position8-5 { left: 1042px; top: 285px; }
+.position8-6 { left: 930px; top: 205px; }
+.position8-7 { left: 640px; top: 226px; }
+.position8-8 { left: 1031px; top: 663px; }
+.position8-9 { left: 1042px; top: 95px; }
+.position8-10 { left: 358px; top: 118px; }
+.position8-11 { left: 204px; top: 169px; }
+.position8-12 { left: 204px; top: 466px; }
+
+
 
 .point-back {
     width: 60px;
