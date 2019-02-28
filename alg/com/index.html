@@ -1,120 +1,249 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 
     <title>Алгоритмика - Комикс</title>
 
-    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link href="css/style.css" type="text/css" rel="stylesheet"/>
 
     <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 
-	<script type="text/javascript">
-		$(document).ready(function(){
+    <script type="text/javascript">
+        $(document).ready(function () {
             init();
-		});
+        });
 
-	</script>
+    </script>
 
-	<style>
+    <style>
 
-	</style>
+    </style>
 
 </head>
 
 <body>
 
 <h2>Начало игры</h2>
-    <img src="img/01.png">
-    <p class="author">В некотором виртуальном царстве-государстве.</p>
-    <p class="author">Жили рыцарь с прицессой</p>
-    <img src="img/02.png">
-    <p class="author">Но в один день что-то пошло не так...</p>
-    <img src="img/03.png">
-    <p class="author">Затянули тучи, искры в небе...</p>
-    <img src="img/04.png">
-    <p class="author">...</p>
-<h2>Конец уровня 1-1, перед выдачей новой команды</h2>
-    <img src="img/11.png">
-    <p class="zme">Привет, дорогой друг!</p>
-    <img src="img/12.png">
-    <p class="zme">Так уж получилось, что произошло отключение электричества и многие данные были потеряны. Тебе придется восстановить этот мир и найти принцессу. А у меня еще много дел в других мирах, подобных твоему.</p>
-    <img src="img/13.png">
-    <p class="zme">Держи еще одну команду, она позволит тебе шагать в другую сторону.</p>
-<h2>Конец уровня 1-7, конец основных уровней</h2>
-    <img src="img/14.png">
-    <p class="zme">Кажется, эти команды могут наполнить природой это скучное, белое пространство!</p>
-<h2>Конец уровня 2-7, конец основных уровней</h2>
-    <img src="img/15.png">
-    <p class="zme">Ты хорошо справился! Теперь это место стало намного привычнее.</p>
-    <p class="ryc">Ура!</p>
-    <p class="zme">Но путь только начинается. Мне кажется, нам теперь к воооон тем горам.</p>
-<h2>Начало уровня 3-1, начало урока</h2>
-    <img src="img/16.png">
-    <p class="ryc">Какая-то пещера. Надеюсь, без приключений обойдется...</p>
-    <img src="img/21.png">
-    <p class="ryc">Эй, там! Опять свет потух?</p>
-    <img src="img/22.png">
-    <img src="img/23.png">
-    <p class="zme">Ну вот, теперь у тебя есть факел!</p>
-    <img src="img/24.png">
-    <p class="zme">Будешь отгонять им всякую нечить на своем пути.</p>
-    <p class="ryc">Ну спасибо, дружище :-(</p>
-<h2>Конец уровня 3-7, конец основных уровней</h2>
-    <img src="img/25.png">
-    <p class="ryc">Змей-горыныч, ты где?</p>
-<h2>Конец уровня 4-7, конец основных уровней</h2>
-    <img src="img/31.png">
-    <p class="ryc">Ты где пропадал? Я с трудом выбрался из этого леса!</p>
-    <p class="zme">Некогда объяснять! Садись на меня, нужно перебраться на другой берег! Летать я тебе все равно не разрешу.</p>
-    <img src="img/32.png">
-    <p class="ryc">То есть как это, не разрешишь?</p>
-    <p class="zme">Я же операционная система и могу раздавать возможности различным программам.</p>
-    <p class="zme">МНОГОЗАДАЧНАЯ операционная система!</p>
-<h2>Начало уровня 5-1, начало урока</h2>
-    <img src="img/33.png">
-    <p class="ryc">Так-так, черепки какие-то. Змей, а куда мы прилетели?</p>
-    <img src="img/34.png">
-    <p class="ryc">Матерь божья, это что такое!?</p>
-    <p class="zme">Извини, мне пора! Вот тебе меч, вдруг пригодится.</p>
-<h2>Конец уровня 5-7, конец основных уровней</h2>
-    <img src="img/35.png">
-<h2>Начало уровня 6-1, начало урока</h2>
-    <img src="img/36.png">
-    <p class="ryc">Наконец я тебя нашел! Теперь все будет хорошо.</p>
-    <img src="img/37.png">
-    <p class="pri">Нам нужно пробраться в замок и освободить жителей нашего царства.</p>
-    <p class="pri">Встретимся на склоне</p>
-<h2>Начало уровня 6-2, первый урок должен был быть очень длинным, но без циклов. Циклы появляются лишь тут.</h2>
-    <img src="img/41.png">
-    <p class="pri">Смотри, собачка проходит одно и тоже расстояние.</p>
-    <p class="pri">Но количество кода разное! (я добавлю команды к картинке. Олег)</p>
-    <img src="img/42.png">
-    <p class="pri">Все, я полетела. Нужно еще достать волшебное зелье для финальной битвы.</p>
-    <p class="ryc">Что?</p>
-<h2>Конец уровня 6-7, конец основных уровней</h2>
-    <img src="img/51.png">
-    <p class="ryc">Ну вот и вход в замок!</p>
-<h2>Конец уровня 7-7, конец основных уровней</h2>
-    <img src="img/52.png">
-    <p class="ryc">Финальная битва! </p>
-<h2>Начало уровня 8-1, начало урока</h2>
-    <img src="img/52.png">
-    <p class="ryc">Финальная битва! </p>
-    <img src="img/53.png">
-    <p class="pri">Постой, рыцарь!</p>
-    <img src="img/54.png">
-    <p class="pri">Держи! Это волшебный посох. С его помощью ты будешь сражаться с драконом.</p>
-    <p class="pri">Целься в его уязвимые места!</p>
-<h2>Конец уровня 8-7, конец основных уровней</h2>
-    <img src="img/55.png">
-    <p class="ryc">...</p>
-    <img src="img/56.png">
-    <p class="ryc">Бобик! Какая встреча!</p>
-    <img src="img/57.png">
-    <p class="author">Жили все они долго и счастливо.</p>
+<div class="picture pic-01">
+    <div class="bubble bub_time-01 bub-01-01"></div>
+    <div class="bubble bub_time-02 bub-01-02"></div>
+    <div class="bubble bub_time-03 bub-01-03"></div>
+    <div class="dialogue">
+        <p class="author">В некотором виртуальном царстве-государстве.</p>
+        <p class="author">Жили рыцарь с прицессой</p>
+    </div>
+</div>
 
+<div class="picture pic-02">
+    <div class="bubble bub_time-01 bub-02-01"></div>
+    <div class="bubble bub_time-02 bub-02-02"></div>
+    <div class="dialogue">
+        <p class="author">Но в один день что-то пошло не так...</p>
+    </div>
+</div>
+<div class="picture pic-03">
+    <div class="dialogue">
+        <p class="author">Затянули тучи, искры в небе...</p>
+    </div>
+</div>
+<div class="picture pic-04">
+    <div class="dialogue">
+        <p class="author">...</p>
+    </div>
+</div>
+<h2>Конец уровня 1-1, перед выдачей новой команды</h2>
+<div class="picture pic-11">
+    <div class="bubble bub_time-01 bub-11-01"></div>
+    <div class="dialogue">
+        <p class="zme">Привет, дорогой друг!</p>
+    </div>
+</div>
+<div class="picture pic-12">
+    <div class="bubble bub_time-01 bub-12-01"></div>
+    <div class="bubble bub_time-02 bub-12-02"></div>
+    <div class="dialogue">
+        <p class="zme">Так уж получилось, что произошло отключение электричества и многие данные были потеряны. Тебе придется
+            восстановить этот мир и найти принцессу. А у меня еще много дел в других мирах, подобных твоему.</p>
+    </div>
+</div>
+<div class="picture pic-13">
+    <div class="bubble bub_time-01 bub-13-01"></div>
+    <div class="dialogue">
+        <p class="zme">Держи еще одну команду, она позволит тебе шагать в другую сторону.</p>
+    </div>
+</div>
+<h2>Конец уровня 1-7, конец основных уровней</h2>
+<div class="picture pic-14">
+    <div class="bubble bub_time-01 bub-14-01"></div>
+    <div class="dialogue">
+        <p class="ryc">Кажется, эти команды могут наполнить природой это скучное, белое пространство!</p>
+    </div>
+</div>
+<h2>Конец уровня 2-7, конец основных уровней</h2>
+<div class="picture pic-15">
+    <div class="bubble bub_time-01 bub-15-01"></div>
+    <div class="bubble bub_time-02 bub-15-02"></div>
+    <div class="dialogue">
+        <p class="zme">Ты хорошо справился! Теперь это место стало намного привычнее.</p>
+        <p class="ryc">Ура!</p>
+        <p class="zme">Но путь только начинается. Мне кажется, нам теперь к воооон тем горам.</p>
+    </div>
+</div>
+<h2>Начало уровня 3-1, начало урока</h2>
+<div class="picture pic-16">
+    <div class="bubble bub_time-01 bub-16-01"></div>
+    <div class="dialogue">
+        <p class="ryc">Какая-то пещера. Надеюсь, без приключений обойдется...</p>
+    </div>
+</div>
+<div class="picture pic-21">
+    <div class="bubble bub_time-01 bub-21-01"></div>
+    <div class="dialogue">
+        <p class="ryc">Эй, там! Опять свет потух?</p>
+    </div>
+</div>
+<div class="picture pic-22">
+</div>
+<div class="picture pic-23">
+    <div class="bubble bub_time-01 bub-23-01"></div>
+    <div class="dialogue">
+        <p class="zme">Ну вот, теперь у тебя есть факел!</p>
+    </div>
+</div>
+<div class="picture pic-24">
+    <div class="bubble bub_time-01 bub-24-01"></div>
+    <div class="bubble bub_time-02 bub-24-02"></div>
+    <div class="dialogue">
+        <p class="zme">Будешь отгонять им всякую нечить на своем пути.</p>
+        <p class="ryc">Ну спасибо, дружище :-(</p>
+    </div>
+</div>
+<h2>Конец уровня 3-7, конец основных уровней</h2>
+<div class="picture pic-25">
+    <div class="bubble bub_time-01 bub-25-01"></div>
+    <div class="dialogue">
+        <p class="ryc">Змей-горыныч, ты где?</p>
+    </div>
+</div>
+<h2>Конец уровня 4-7, конец основных уровней</h2>
+<div class="picture pic-31">
+    <div class="bubble bub_time-01 bub-31-01"></div>
+    <div class="bubble bub_time-02 bub-31-02"></div>
+    <div class="dialogue">
+        <p class="ryc">Ты где пропадал? Я с трудом выбрался из этого леса!</p>
+        <p class="zme">Некогда объяснять! Садись на меня, нужно перебраться на другой берег! Летать я тебе все равно не
+            разрешу.</p>
+    </div>
+</div>
+<div class="picture pic-32">
+    <div class="bubble bub_time-01 bub-32-01"></div>
+    <div class="bubble bub_time-02 bub-32-02"></div>
+    <div class="dialogue">
+        <p class="ryc">То есть как это, не разрешишь?</p>
+        <p class="zme">Я же операционная система и могу раздавать возможности различным программам.</p>
+        <p class="zme">МНОГОЗАДАЧНАЯ операционная система!</p>
+    </div>
+</div>
+<h2>Начало уровня 5-1, начало урока</h2>
+<div class="picture pic-33">
+    <div class="bubble bub_time-01 bub-33-01"></div>
+    <div class="dialogue">
+        <p class="ryc">Так-так, черепки какие-то. Змей, а куда мы прилетели?</p>
+    </div>
+</div>
+<div class="picture pic-34">
+    <div class="bubble bub_time-01 bub-34-01"></div>
+    <div class="bubble bub_time-02 bub-34-02"></div>
+    <div class="dialogue">
+        <p class="ryc">Матерь божья, это что такое!?</p>
+        <p class="zme">Извини, мне пора! Вот тебе меч, вдруг пригодится.</p>
+    </div>
+</div>
+<h2>Конец уровня 5-7, конец основных уровней</h2>
+<div class="picture pic-35">
+</div>
+<h2>Начало уровня 6-1, начало урока</h2>
+<div class="picture pic-36">
+    <div class="bubble bub_time-01 bub-36-01"></div>
+    <div class="bubble bub_time-02 bub-36-02"></div>
+    <div class="dialogue">
+        <p class="ryc">Наконец я тебя нашел! Теперь все будет хорошо.</p>
+    </div>
+</div>
+<div class="picture pic-37">
+    <div class="bubble bub_time-01 bub-37-01"></div>
+    <div class="bubble bub_time-02 bub-37-02"></div>
+    <div class="dialogue">
+        <p class="pri">Нам нужно пробраться в замок и освободить жителей нашего царства. Встретимся на склоне</p>
+    </div>
+</div>
+<h2>Начало уровня 6-2, первый урок должен был быть очень длинным, но без циклов. Циклы появляются лишь тут.</h2>
+<div class="picture pic-41">
+    <div class="dialogue">
+        <p class="pri">Смотри, собачка проходит одно и тоже расстояние. Но количество кода разное!</p>
+    </div>
+</div>
+<div class="picture pic-42">
+    <div class="bubble bub_time-01 bub-42-01"></div>
+    <div class="dialogue">
+        <p class="pri">Все, я полетела. Нужно еще достать волшебное зелье для финальной битвы.</p>
+        <p class="ryc">Какой еще финальной битвой?</p>
+    </div>
+</div>
+<h2>Конец уровня 6-7, конец основных уровней</h2>
+<div class="picture pic-51">
+    <div class="bubble bub_time-01 bub-51-01"></div>
+    <div class="dialogue">
+        <p class="ryc">Ну вот и вход в замок!</p>
+    </div>
+</div>
+<h2>Конец уровня 7-7, конец основных уровней</h2>
+<div class="picture pic-52">
+    <div class="bubble bub_time-01 bub-52-01"></div>
+    <div class="dialogue">
+        <p class="ryc">Финальная битва! </p>
+    </div>
+</div>
+<h2>Начало уровня 8-1, начало урока</h2>
+<div class="picture pic-52">
+    <div class="bubble bub_time-01 bub-52-01"></div>
+    <div class="dialogue">
+        <p class="ryc">Финальная битва! </p>
+    </div>
+</div>
+<div class="picture pic-53">
+    <div class="bubble bub_time-01 bub-53-01"></div>
+    <div class="dialogue">
+        <p class="pri">Постой, рыцарь!</p>
+    </div>
+</div>
+<div class="picture pic-54">
+    <div class="bubble bub_time-01 bub-54-01"></div>
+    <div class="bubble bub_time-02 bub-54-02"></div>
+    <div class="dialogue">
+        <p class="pri">Держи! Сварила волшебное зелье, только что. Целься в его уязвимые места дракона!</p>
+    </div>
+</div>
+<h2>Конец уровня 8-7, конец основных уровней</h2>
+<div class="picture pic-55">
+    <div class="dialogue">
+        <p class="ryc">...</p>
+    </div>
+</div>
+<div class="picture pic-56">
+    <div class="bubble bub_time-01 bub-56-01"></div>
+    <div class="dialogue">
+        <p class="ryc">Бобик! Какая встреча!</p>
+    </div>
+</div>
+<div class="picture pic-57">
+    <div class="bubble bub_time-01 bub-57-01"></div>
+    <div class="dialogue">
+        <p class="author">Жили все они долго и счастливо.</p>
+    </div>
+</div>
 
 
 </body>
