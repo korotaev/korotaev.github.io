@@ -29,3 +29,11 @@ body {
   /* background-image: url('../img/car_200_360.png'); */
   position: relative;
 }
+/* background-image: url('../img/car_200_360_shadow.png'); */
+.car-test {
+    width: 100px;
+    height: 60px;
+    left: -50px;
+    top: -30px;
+    background-image: url('../img/test_100_72_tiny.png');
+}
