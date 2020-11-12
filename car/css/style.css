@@ -24,10 +24,22 @@ body {
   height: 120px;
   left: -100px;
   top: -60px;
-  /* background-image: url('../img/car_200_360_shadow2.png'); */
-  /* background-image: url('../img/car_200_360_shadow.png'); */
-  background-image: url('../img/car_200_360.png');
+  background-image: url('../img/newcar/back.png');
   position: relative;
+}
+.car-mask {
+  background-image: url('../img/newcar/mask.png');
+  position: absolute;
+}
+.car-diffuse {
+  background-image: url('../img/newcar/diffuse.png');
+  mix-blend-mode: multiply;
+  position: absolute;
+}
+.car-glossy {
+  background-image: url('../img/newcar/glossy.png');
+  mix-blend-mode: screen;
+  position: absolute;
 }
 .shadow {
   width: 200px;
