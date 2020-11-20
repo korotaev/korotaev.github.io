@@ -4,6 +4,8 @@ var level = {
     speed: 2,
     scale: .7,
     frames: 72,
+    day: true,
+    class: 'comfort',
     color: 0xffc300
 };
 
@@ -27,8 +29,20 @@ function init() {
     gui.add(level, 'scale', 0.1, 2).onChange(function(value) {
         cars[0].scale = value;
     });
-    gui.add(level, 'frames', 72, 72).step(4).onChange(function(value) {
-        cars[0].frames = value;
+    gui.add(level, 'day').onChange(function(value) {
+        cars[0].day = value;
+        update();
+    });
+    gui.add(level, 'class', {
+        econom: 'econom',
+        comfort: 'comfort',
+        comfort_plus: 'comfort_plus',
+        // business: 'business',
+        minivan: 'minivan',
+        delivery: 'delivery'
+    }).onChange(function(value) {
+        cars[0].class = value;
+        changeClass();
     });
 
     gui.addColor(level, 'color').onChange(function(value) {
@@ -37,7 +51,6 @@ function init() {
     });
 
     addCar();
-
 
     map                 = Snap('#svg-doc');
     flight_path         = map.select('path');
@@ -104,29 +117,53 @@ function init() {
 
 }
 
+(function($) {
+    $.fn.removeClassWild = function(mask) {
+        return this.removeClass(function(index, cls) {
+            var re = mask.replace(/\*/g, '\\S+');
+            return (cls.match(new RegExp('\\b' + re + '', 'g')) || []).join(' ');
+        });
+    };
+})(jQuery);
+
 function addCar() {
 
     var car = {};
+    car.class = level.class;
     car.dc = $('<div/>').addClass('car-container');
-    car.ds = $('<div/>').addClass('shadow').appendTo(car.dc);
-    car.di = $('<div/>').addClass('car').appendTo(car.dc);
-    car.dm = $('<div/>').addClass('car').addClass('car-mask').appendTo(car.dc);
-    car.dd = $('<div/>').addClass('car').addClass('car-diffuse').appendTo(car.dc);
-    car.dg = $('<div/>').addClass('car').addClass('car-glossy').appendTo(car.dc);
+    car.ds = $('<div/>').addClass('shadow').addClass('shadow-'+car.class).appendTo(car.dc);
+    car.di = $('<div/>').addClass('car').addClass('back-'+car.class).appendTo(car.dc);
+    car.dm = $('<div/>').addClass('car').addClass('mask-'+car.class).addClass('car-mask').appendTo(car.dc);
+    car.dd = $('<div/>').addClass('car').addClass('diffuse-'+car.class).addClass('car-diffuse').appendTo(car.dc);
+    car.dg = $('<div/>').addClass('car').addClass('glossy-'+car.class).addClass('car-glossy').appendTo(car.dc);
     car.dc.appendTo('#map');
     car.speed = level.speed;
     car.scale = level.scale;
     car.frames = level.frames;
     car.a = 0;
     car.color = level.color;
+    car.day = level.day;
     cars.push(car);
+}
+
+var changeClass = function() {
+    cars[0].ds.removeClassWild('shadow-*');
+    cars[0].di.removeClassWild('back-*');
+    cars[0].dm.removeClassWild('mask-*');
+    cars[0].dd.removeClassWild('diffuse-*');
+    cars[0].dg.removeClassWild('glossy-*');
+
+    cars[0].ds.addClass('shadow-'+cars[0].class);
+    cars[0].di.addClass('back-'+cars[0].class);
+    cars[0].dm.addClass('mask-'+cars[0].class);
+    cars[0].dd.addClass('diffuse-'+cars[0].class);
+    cars[0].dg.addClass('glossy-'+cars[0].class);
+
+    update();
 }
 
 var update = function() {
 
-    console.log(cars[0]);
-
-    // var r=255,g=0,b=0;
     var r,g,b;
     if(cars[0].color != undefined) {
         var col = cars[0].color >>> 0;
@@ -137,7 +174,6 @@ var update = function() {
 
 
     let color = new Color(r, g, b);
-    // let color = new Color(105, 105, 5);
     let solver = new Solver(color);
     let result = solver.solve();
     let filterCSS = result.css;
@@ -146,6 +182,21 @@ var update = function() {
 
 
     cars[0].dm.css('filter', val);
+
+    $('#map').removeClass('day');
+    $('#map').removeClass('night');
+    cars[0].dg.removeClass('glossy-'+cars[0].class+'-night');
+    cars[0].dg.removeClass('glossy-'+cars[0].class);
+
+    if(cars[0].day == false) {
+        $('#map').addClass('night');
+        cars[0].dg.addClass('glossy-'+cars[0].class+'-night');
+        $('.shadow').addClass('shadow-night');
+    } else {
+        $('#map').addClass('day');
+        cars[0].dg.addClass('glossy-'+cars[0].class);
+        $('.shadow').removeClass('shadow-night');
+    }
 
 };
 
