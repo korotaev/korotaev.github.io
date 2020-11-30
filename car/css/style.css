@@ -66,6 +66,13 @@ body {
 .glossy-minivan-night { background-image: url('../img/minivan/minivan-glossy-night.png'); }
 .shadow-minivan { background-image: url('../img/minivan/minivan-shadow.png'); }
 
+.back-business { background-image: url('../img/business/business-back.png'); }
+.mask-business { background-image: url('../img/business/business-mask.png'); }
+.diffuse-business { background-image: url('../img/business/business-diffuse.png'); }
+.glossy-business { background-image: url('../img/business/business-glossy.png'); }
+.glossy-business-night { background-image: url('../img/business/business-glossy-night.png'); }
+.shadow-business { background-image: url('../img/business/business-shadow.png'); }
+
 .car-mask {
   position: absolute;
 }

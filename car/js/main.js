@@ -39,6 +39,7 @@ function init() {
         comfort_plus: 'comfort_plus',
         // business: 'business',
         minivan: 'minivan',
+        business: 'business',
         delivery: 'delivery'
     }).onChange(function(value) {
         cars[0].class = value;
