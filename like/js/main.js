@@ -63,7 +63,7 @@ function init() {
                 'rotEnd' : rotEnd,
                 'x' : e.pageX - posX,
                 'y' : e.pageY - posY,
-                'timeStart' : timeCur + level.timeLife*1000*i/level.numHearts,
+                'timeStart' : timeCur + level.timeEnd*1000*i/level.numHearts,
                 'timeLife' : level.timeLife*1000,
                 'vel' : level.velocity,
                 'dir' : 0,
